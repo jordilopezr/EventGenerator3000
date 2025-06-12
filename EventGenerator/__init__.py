@@ -4,6 +4,7 @@ import datetime
 import logging
 import azure.functions as func
 import requests
+import json
 
 DT_API_URL = os.getenv("DT_API_URL").rstrip("/")
 DT_API_TOKEN = os.getenv("DT_API_TOKEN")
@@ -112,58 +113,156 @@ def send_event(payload: dict) -> bool:
         "Authorization": f"Api-Token {DT_API_TOKEN}",
         "Content-Type": "application/json; charset=utf-8"
     }
-    resp = requests.post(url, json=payload, headers=headers)
-    return resp.status_code == 200
+    try:
+        resp = requests.post(url, json=payload, headers=headers, timeout=10)
+        resp.raise_for_status() # Lanza una excepción para códigos de error HTTP (4xx o 5xx)
+        return resp.status_code == 200
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error sending event to Dynatrace: {e}")
+        return False
 
-def render_page(selected: str = None, message: str = None) -> str:
+
+def render_page(selected: str = None, message: str = None, status: str = None, payload: dict = None) -> str:
     options_html = "\n".join(
         f'<option value="{code}"{" selected" if code==selected else ""}>{label}</option>'
-        for code,label in EVENT_TYPES
+        for code, label in EVENT_TYPES
     )
-    desc = ""
-    if selected:
-        label = dict(EVENT_TYPES)[selected]
-        desc = f"<p>Generando evento: <strong>{label}</strong></p>"
+
+    feedback_html = ""
     if message:
-        desc += f"<p><em>{message}</em></p>"
+        status_class = "status-success" if status == "success" else "status-error"
+        feedback_html += f'<div class="message {status_class}"><p>{message}</p></div>'
+
+    payload_html = ""
+    if payload:
+        # Escapar caracteres HTML en el JSON para mostrarlo de forma segura
+        payload_str = json.dumps(payload, indent=2)
+        payload_html = f'<h3>Payload Enviado</h3><pre><code>{payload_str}</code></pre>'
+
     return f"""<!DOCTYPE html>
-<html>
-  <head><title>Event Generator 3000</title></head>
-  <body>
-    <h1>Event Generator 3000</h1>
-    <form method="get">
-      <label for="type">Selecciona el tipo de evento:</label>
-      <select name="type" id="type">
-        {options_html}
-      </select>
-      <button type="submit">Generar evento</button>
-    </form>
-    {desc}
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Generator 3000</title>
+    <style>
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            padding: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }}
+        .container {{
+            background: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+        }}
+        h1 {{
+            color: #1e3a8a; /* Azul oscuro */
+            text-align: center;
+            margin-top: 0;
+        }}
+        form {{
+            display: flex;
+            gap: 1em;
+            align-items: center;
+            margin-bottom: 1.5em;
+        }}
+        label {{
+            font-weight: 600;
+        }}
+        select, button {{
+            padding: 0.8em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }}
+        select {{
+            flex-grow: 1;
+        }}
+        button {{
+            background-color: #2563eb; /* Azul brillante */
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }}
+        button:hover {{
+            background-color: #1d4ed8; /* Azul más oscuro */
+        }}
+        .message {{
+            padding: 1em;
+            border-radius: 4px;
+            margin-bottom: 1.5em;
+        }}
+        .status-success {{
+            background-color: #dcfce7; /* Verde claro */
+            color: #166534; /* Verde oscuro */
+            border-left: 5px solid #22c55e;
+        }}
+        .status-error {{
+            background-color: #fee2e2; /* Rojo claro */
+            color: #991b1b; /* Rojo oscuro */
+            border-left: 5px solid #ef4444;
+        }}
+        pre {{
+            background-color: #1e293b; /* Gris azulado oscuro */
+            color: #e2e8f0; /* Gris claro */
+            padding: 1em;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: "Courier New", Courier, monospace;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event Generator 3000</h1>
+        <form method="get">
+            <label for="type">Selecciona el tipo de evento:</label>
+            <select name="type" id="type">
+                {options_html}
+            </select>
+            <button type="submit">Generar evento</button>
+        </form>
+        {feedback_html}
+        {payload_html}
+    </div>
+</body>
 </html>"""
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
         evt = req.params.get("type")
+        payload = None
         if evt:
             payload = build_payload(evt)
             if payload and send_event(payload):
                 return func.HttpResponse(
-                    render_page(selected=evt, message="¡Evento enviado con éxito!"),
+                    render_page(selected=evt, message="¡Evento enviado con éxito!", status="success", payload=payload),
                     mimetype="text/html", status_code=200
                 )
             else:
                 logging.error("Error al enviar evento o payload inválido")
                 return func.HttpResponse(
-                    render_page(selected=evt, message="Error al enviar evento."),
+                    render_page(selected=evt, message="Error al enviar evento. Revisa la configuración y los logs de la función.", status="error", payload=payload),
                     mimetype="text/html", status_code=500
                 )
         else:
-            # primera carga
+            # Carga inicial de la página
             return func.HttpResponse(render_page(), mimetype="text/html")
     except Exception as ex:
         logging.exception("Excepción en la función")
         return func.HttpResponse(
-            render_page(message=f"Excepción: {ex}"),
+            render_page(message=f"Ha ocurrido una excepción: {ex}", status="error"),
             mimetype="text/html", status_code=500
         )
