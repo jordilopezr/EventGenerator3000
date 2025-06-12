@@ -1,0 +1,24 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Paquetes de dependencias para Azure Functions
+.python_packages/
+
+# Archivo de configuración local - ¡IMPORTANTE PARA NO SUBIR SECRETOS!
+local.settings.json
+
+# Configuraciones del editor
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
