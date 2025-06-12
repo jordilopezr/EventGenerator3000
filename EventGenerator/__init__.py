@@ -1,7 +1,7 @@
 import os
 import random
-import datetime
 import logging
+import datetime  # ...added missing import...
 import azure.functions as func
 import requests
 import json
@@ -100,7 +100,7 @@ def check_dynatrace_connection():
 def build_payload(evt_code: str):
     ts = int(datetime.datetime.utcnow().timestamp() * 1000)
     common = {"timestamp": ts, "source": "EventGenerator3000", "detect": False}
-    if evt_code == "resource": return {"eventType": "RESOURCE_EVENT", "entitySelector": "type(HOST),entityName(\"host123\")", "property": "CPU_USAGE", "value": random.randint(1, 100), **common}
+    if evt_code == "resource": return {"eventType": "RESOURCE_EVENT", "entitySelector": "type(HOST),entityName(\"host123\")", "property": "CPU_USAGE", "value": random.randint(1, 100), **common} # type: ignore
     if evt_code == "trace": return {"eventType": "STATE_EVENT", "entitySelector": "type(SERVICE),entityName(\"ServiceXYZ\")", "state": "TRACE_SPAN", "annotationType": "TRACE", **common}
     # ... (resto de la función build_payload sin cambios)...
     if evt_code == "http":

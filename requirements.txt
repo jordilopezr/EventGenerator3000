@@ -2,3 +2,5 @@ azure-functions
 requests
 opentelemetry-distro
 oneagent-sdk
+opentelemetry-exporter-otlp
+dynatrace-opentelemetry-azure-functions
