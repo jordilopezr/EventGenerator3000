@@ -1,2 +1,4 @@
 azure-functions
 requests
+opentelemetry-distro
+oneagent-sdk

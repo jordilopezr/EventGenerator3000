@@ -3,7 +3,12 @@
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsStorage": "<cadena de conexión local o Azurite>",
+
     "DT_API_URL": "https://<tu-entorno>.live.dynatrace.com",
-    "DT_API_TOKEN": "<tu-api-token>"
+    "DT_API_TOKEN": "<tu-api-token-events.ingest>",
+    
+    "OTEL_SERVICE_NAME": "EventGenerator3000",
+    "OTEL_EXPORTER_OTLP_HEADERS": "Authorization=Api-Token <tu-api-token-ingest.otlp>",
+    "OTEL_EXPORTER_OTLP_ENDPOINT": "https://<tu-entorno>.live.dynatrace.com/api/v2/otlp"
   }
 }
