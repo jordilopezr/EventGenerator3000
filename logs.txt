@@ -1,4 +1,4 @@
-2025-06-13T02:36:41  Welcome, you are now connected to log-streaming service.
+2025-06-13T02:56:11  Welcome, you are now connected to log-streaming service.
 Starting Log Tail -n 10 of existing logs ----
 /home/LogFiles/__lastCheckTime.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/__lastCheckTime.txt)
 06/11/2025 16:58:05
@@ -86,6 +86,8 @@ Starting Log Tail -n 10 of existing logs ----
 2025-06-12T14:43:57  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/817b1a873226-8b27fe6e-32d0-40f6-8125-3a3b946d070c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/817b1a873226-8b27fe6e-32d0-40f6-8125-3a3b946d070c.txt)
 2025-06-12T14:06:13  Startup Request, url: /webssh/socket.io/?EIO=4&transport=polling&t=PTaTd15&sid=kjONx_iADW5UHC7JAAAA, method: POST, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/8fc7875fb231-4649963f-6ec7-4256-b157-5a546bb8720b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/8fc7875fb231-4649963f-6ec7-4256-b157-5a546bb8720b.txt)
+2025-06-13T02:56:11  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/906f8d558dfd-987262e3-0a39-436f-a578-82c89e31c385.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/906f8d558dfd-987262e3-0a39-436f-a578-82c89e31c385.txt)
 2025-06-10T17:45:40  Startup Request, url: /api/logstreamV2/?max=50&ago=5m&api-version=2016-09-01, method: GET, type: request, pid: 768,1,25, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/97465c9b014a-8546cb15-dbd3-4e18-beaf-f2c41faa94fe.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/97465c9b014a-8546cb15-dbd3-4e18-beaf-f2c41faa94fe.txt)
@@ -100,6 +102,10 @@ Starting Log Tail -n 10 of existing logs ----
 2025-06-12T15:06:30  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/a6197f86f4fd-25ce1ac4-f302-4483-a10a-d4abcdc0611b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/a6197f86f4fd-25ce1ac4-f302-4483-a10a-d4abcdc0611b.txt)
 2025-06-12T05:04:39  Startup Request, url: /api/logstream, method: GET, type: request, pid: 767,1,20, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/aaba687c6a32-6350d3d4-1b75-4ee6-a181-19a94bc71a24.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/aaba687c6a32-6350d3d4-1b75-4ee6-a181-19a94bc71a24.txt)
+2025-06-13T02:49:12  Startup Request, url: /api/vfs/data/, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/aaba687c6a32-996bfbe5-2835-412f-adfa-d8a0926956d1.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/aaba687c6a32-996bfbe5-2835-412f-adfa-d8a0926956d1.txt)
+2025-06-13T02:54:00    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/ac363509ef44-1fc674de-5981-48ec-a726-6bbc7448ad83.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ac363509ef44-1fc674de-5981-48ec-a726-6bbc7448ad83.txt)
 2025-06-12T15:27:24  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/c4bf9912a0a3-aa3477c1-7677-4aa3-b57d-20cc1f4f5297.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/c4bf9912a0a3-aa3477c1-7677-4aa3-b57d-20cc1f4f5297.txt)
@@ -259,83 +265,676 @@ python3.10-appservice-stage5
 2025-06-12T22:22:36.860146344Z Now listening on: http://[::]:8081
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log)
-2025-06-13T02:29:08.985556650Z Updating certificates in /etc/ssl/certs...
-2025-06-13T02:29:11.622763372Z 1 added, 0 removed; done.
-2025-06-13T02:29:11.622789087Z Running hooks in /etc/ca-certificates/update.d...
-2025-06-13T02:29:11.625861382Z done.
-2025-06-13T02:29:11.723674309Z Starting OpenBSD Secure Shell server: sshd.
-2025-06-13T02:29:13.514785542Z Hosting environment: Production
-2025-06-13T02:29:13.514814467Z Content root path: /azure-functions-host
-2025-06-13T02:29:13.514819394Z Now listening on: http://[::]:80
-2025-06-13T02:29:13.514824059Z Application started. Press Ctrl+C to shut down.
+2025-06-13T02:53:58.254152592Z Updating certificates in /etc/ssl/certs...
+2025-06-13T02:54:00.975710512Z 1 added, 0 removed; done.
+2025-06-13T02:54:00.975798281Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T02:54:00.980407955Z done.
+2025-06-13T02:54:01.065194838Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T02:54:03.217041859Z Hosting environment: Production
+2025-06-13T02:54:03.218364843Z Content root path: /azure-functions-host
+2025-06-13T02:54:03.218385210Z Now listening on: http://[::]:80
+2025-06-13T02:54:03.218761409Z Application started. Press Ctrl+C to shut down.
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_docker.log)
-2025-06-13T02:29:09.549Z INFO  - Pull Image successful, Time taken: 0 Seconds
-2025-06-13T02:29:09.593Z INFO  - Starting container for site
-2025-06-13T02:29:09.594Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_54_9ef924df_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.3:80 /Host.UseFileLogging=true
+2025-06-13T02:55:40.669Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/middleware:stage5
+2025-06-13T02:55:40.687Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T02:55:40.729Z INFO  - Starting container for site
+2025-06-13T02:55:40.731Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_58_cdffe7f2_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.2:80 /Host.UseFileLogging=true
 python3.10-appservice-stage5 
-2025-06-13T02:29:10.318Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df_msiProxy for site chli2zb1afaccoeclcrit001
-2025-06-13T02:29:10.326Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T02:29:10.327Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df for site chli2zb1afaccoeclcrit001
-2025-06-13T02:29:14.468Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T02:29:14.469Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df_middleware for site chli2zb1afaccoeclcrit001
-2025-06-13T02:29:14.641Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:41.911Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T02:55:41.919Z INFO  - Container chli2zb1afaccoeclcrit001_58_cdffe7f2_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:41.921Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2 for site chli2zb1afaccoeclcrit001
+2025-06-13T02:55:49.264Z INFO  - Container chli2zb1afaccoeclcrit001_58_cdffe7f2 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:49.265Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2_middleware for site chli2zb1afaccoeclcrit001
 /home/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log)
-2025-06-13T02:29:11.942190493Z Updated CA certificates
-2025-06-13T02:29:12.417512349Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
 2025-06-13T02:29:12.417543869Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T02:46:50.228147006Z Updated CA certificates
+2025-06-13T02:46:50.641490931Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T02:46:50.641522398Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T02:54:01.349797122Z Updated CA certificates
+2025-06-13T02:54:02.078406528Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T02:54:02.078439021Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log)
-2025-06-13T02:28:43.533351868Z Updated CA certificates
-2025-06-13T02:28:44.127089786Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
-2025-06-13T02:28:45.177209809Z Hosting environment: Production
-2025-06-13T02:28:45.177248784Z Content root path: /app
-2025-06-13T02:28:45.177854272Z Now listening on: http://[::]:8081
+2025-06-13T02:46:46.113484158Z Hosting environment: Production
+2025-06-13T02:46:46.113521976Z Content root path: /app
+2025-06-13T02:46:46.113527384Z Now listening on: http://[::]:8081
+
+2025-06-13T02:53:55.763756544Z Updated CA certificates
+2025-06-13T02:53:56.375767015Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T02:53:57.225488274Z Hosting environment: Production
+2025-06-13T02:53:57.225518653Z Content root path: /app
+2025-06-13T02:53:57.225524145Z Now listening on: http://[::]:8081
 
 /home/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log)
-2025-06-13T02:29:44.956 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T02:29:44.957 [Information] File "/home/site/wwwroot/EventGenerator3000/__init__.py", line 14, in <module>
-2025-06-13T02:29:44.957 [Information] from oneagent.sdk.tracers import CustomTracer
-2025-06-13T02:29:44.957 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
-/home/LogFiles/Application/Functions/Function/holamundo/2025-06-11T17-35-38Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Function/holamundo/2025-06-11T17-35-38Z-46ace6e5d7.log)
-2025-06-11T18:52:06.911 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=a2953c5c-57be-41dc-a05c-04470ba4596d)
-2025-06-11T18:52:06.915 [Information] Executed 'Functions.holamundo' (Succeeded, Id=a2953c5c-57be-41dc-a05c-04470ba4596d, Duration=4ms)
-2025-06-11T19:31:23.979 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=87f00e84-355d-4570-9628-5c861af921ae)
-2025-06-11T19:31:24.012 [Information] Executed 'Functions.holamundo' (Succeeded, Id=87f00e84-355d-4570-9628-5c861af921ae, Duration=30ms)
-2025-06-12T15:10:09.652 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=60b007c4-d6f8-4bad-9aba-14ac35ce4d19)
-2025-06-12T15:10:09.702 [Information] Executed 'Functions.holamundo' (Succeeded, Id=60b007c4-d6f8-4bad-9aba-14ac35ce4d19, Duration=48ms)
-2025-06-12T17:27:44.161 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=d69b8fd5-3b10-48e2-b9af-55403a72e680)
-2025-06-12T17:27:44.169 [Information] Executed 'Functions.holamundo' (Succeeded, Id=d69b8fd5-3b10-48e2-b9af-55403a72e680, Duration=10ms)
-2025-06-12T18:52:21.290 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=1f8a9afe-26ce-4731-b7f7-906451ecc0ae)
-2025-06-12T18:52:21.346 [Information] Executed 'Functions.holamundo' (Succeeded, Id=1f8a9afe-26ce-4731-b7f7-906451ecc0ae, Duration=63ms)
+2025-06-13T02:56:05.800 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T02:56:05.800 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T02:56:05.800 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T02:56:05.800 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T02:56:05.800 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
 Ending Log Tail of existing logs ---
 Starting Live Log Stream ---
-2025-06-13T02:29:08.967113643Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
-2025-06-13T02:29:08.973001782Z CA certificates copied and updated successfully.
-2025-06-13T02:29:08.985556650Z Updating certificates in /etc/ssl/certs...
-2025-06-13T02:29:11.622763372Z 1 added, 0 removed; done.
-2025-06-13T02:29:11.622789087Z Running hooks in /etc/ca-certificates/update.d...
-2025-06-13T02:29:11.625861382Z done.
-2025-06-13T02:29:11.723674309Z Starting OpenBSD Secure Shell server: sshd.
-2025-06-13T02:29:13.514785542Z Hosting environment: Production
-2025-06-13T02:29:13.514814467Z Content root path: /azure-functions-host
-2025-06-13T02:29:13.514819394Z Now listening on: http://[::]:80
-2025-06-13T02:29:13.514824059Z Application started. Press Ctrl+C to shut down.
+6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.2:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-13T02:55:41.911Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T02:55:41.919Z INFO  - Container chli2zb1afaccoeclcrit001_58_cdffe7f2_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:41.921Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2 for site chli2zb1afaccoeclcrit001
+2025-06-13T02:55:49.264Z INFO  - Container chli2zb1afaccoeclcrit001_58_cdffe7f2 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:49.265Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_58_cdffe7f2_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T02:56:14.705 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T02:56:14.705 [Information] ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-06-13T02:56:15.957 [Information] Worker process started and initialized.
+2025-06-13T02:56:16.102 [Information] Traceback (most recent call last):
+2025-06-13T02:56:16.102 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T02:56:16.102 [Information] return func(*args, **kwargs)
+2025-06-13T02:56:16.102 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T02:56:16.102 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T02:56:16.102 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T02:56:16.102 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T02:56:16.103 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T02:56:16.103 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T02:56:16.103 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T02:56:16.103 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T02:55:40.050935339Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-13T02:55:40.060451666Z CA certificates copied and updated successfully.
+2025-06-13T02:55:40.081063877Z Updating certificates in /etc/ssl/certs...
+2025-06-13T02:55:42.733892233Z 1 added, 0 removed; done.
+2025-06-13T02:55:42.734309510Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T02:55:42.737876383Z done.
+2025-06-13T02:55:42.843986490Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T02:55:44.698513274Z Hosting environment: Production
+2025-06-13T02:55:44.701472028Z Content root path: /azure-functions-host
+2025-06-13T02:55:44.701492891Z Now listening on: http://[::]:80
+2025-06-13T02:55:44.702771006Z Application started. Press Ctrl+C to shut down.
 
-2025-06-13T02:29:11.942190493Z Updated CA certificates
-2025-06-13T02:29:12.417512349Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
-2025-06-13T02:29:12.417543869Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+2025-06-13T02:56:20.827Z INFO  - Container chli2zb1afaccoeclcrit001_58_cdffe7f2_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:55:43.513259462Z Updated CA certificates
+2025-06-13T02:55:43.937926742Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T02:55:43.937988895Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
-2025-06-13T02:28:43.533351868Z Updated CA certificates
-2025-06-13T02:28:44.127089786Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
-2025-06-13T02:28:45.177209809Z Hosting environment: Production
-2025-06-13T02:28:45.177248784Z Content root path: /app
-2025-06-13T02:28:45.177854272Z Now listening on: http://[::]:8081
+2025-06-13T02:55:35.789995140Z Updated CA certificates
+2025-06-13T02:55:37.176991192Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T02:55:38.241837982Z Hosting environment: Production
+2025-06-13T02:55:38.241905556Z Content root path: /app
+2025-06-13T02:55:38.242102574Z Now listening on: http://[::]:8081
 
-2025-06-13T02:38:41  No new trace in the past 1 min(s).
+2025-06-13T02:58:11  No new trace in the past 1 min(s).
+2025-06-13T02:59:11  No new trace in the past 2 min(s).
+2025-06-13T03:00:11  No new trace in the past 3 min(s).
+2025-06-13T03:01:11  No new trace in the past 4 min(s).
+2025-06-13T03:01:46.792 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 363945,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:01:49.310 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 366470,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:01:49.377 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 366537,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:01:50.516 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 367675,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:02:59.154 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 436314,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:01.660 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 438820,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:06.845Z INFO  - Pulling image: mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T03:03:07.168Z INFO  - stage5 Pulling from appsvc/msitokenservice
+2025-06-13T03:03:07.179Z INFO  -  Digest: sha256:15c4360552ca5d886db18e4eaa6a95993305c67dae381aa8505592cd7c45bd46
+2025-06-13T03:03:07.180Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T03:03:07.191Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T03:03:07.222Z INFO  - Starting container for site
+2025-06-13T03:03:07.224Z INFO  - docker run -d --expose=8081 --name chli2zb1afaccoeclcrit001_60_7b1662ec_msiProxy -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITE_AUTH_ENABLED=False -e PORT=8081 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/msitokenservice:stage5 
+6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.5:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-13T03:03:12.339Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_60_7b1662ec_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T03:03:12.355Z INFO  - Container chli2zb1afaccoeclcrit001_60_7b1662ec_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T03:03:12.356Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_60_7b1662ec for site chli2zb1afaccoeclcrit001
+2025-06-13T03:03:16.510Z INFO  - Container chli2zb1afaccoeclcrit001_60_7b1662ec for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T03:03:16.512Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_60_7b1662ec_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T03:03:16.674Z INFO  - Container chli2zb1afaccoeclcrit001_60_7b1662ec_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T03:03:14.448 [Warning] The Dashboard setting is no longer supported. See https://aka.ms/functions-dashboard for details.
+2025-06-13T03:03:14.472 [Information] Initializing Warmup Extension.
+2025-06-13T03:03:14.530 [Information] Initializing Host. OperationId: '5cf45c04-58e6-44dc-85c6-15954fab6c3e'.
+2025-06-13T03:03:14.534 [Information] Host initialization: ConsecutiveErrors=0, StartupCount=1, OperationId=5cf45c04-58e6-44dc-85c6-15954fab6c3e
+2025-06-13T03:03:14.587 [Information] ApplicationInsightsLoggerOptions
+{
+  "SamplingSettings": {
+    "EvaluationInterval": "00:00:15",
+    "InitialSamplingPercentage": 100.0,
+    "MaxSamplingPercentage": 100.0,
+    "MaxTelemetryItemsPerSecond": 20.0,
+    "MinSamplingPercentage": 0.1,
+    "MovingAverageRatio": 0.25,
+    "SamplingPercentageDecreaseTimeout": "00:02:00",
+    "SamplingPercentageIncreaseTimeout": "00:15:00"
+  },
+  "SamplingExcludedTypes": null,
+  "SamplingIncludedTypes": null,
+  "SnapshotConfiguration": null,
+  "EnablePerformanceCountersCollection": true,
+  "HttpAutoCollectionOptions": {
+    "EnableHttpTriggerExtendedInfoCollection": true,
+    "EnableW3CDistributedTracing": true,
+    "EnableResponseHeaderInjection": true
+  },
+  "LiveMetricsInitializationDelay": "00:00:15",
+  "EnableLiveMetrics": true,
+  "EnableLiveMetricsFilters": false,
+  "EnableQueryStringTracing": false,
+  "EnableDependencyTracking": true,
+  "DependencyTrackingOptions": null,
+  "TokenCredentialOptions": null,
+  "DiagnosticsEventListenerLogLevel": null,
+  "EnableAutocollectedMetricsExtractor": false,
+  "EnableMetricsCustomDimensionOptimization": false,
+  "EnableAdaptiveSamplingDelay": true,
+  "AdaptiveSamplingInitializationDelay": "00:00:15"
+}
+2025-06-13T03:03:14.587 [Information] LoggerFilterOptions
+{
+  "MinLevel": "None",
+  "Rules": [
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": "Warning",
+      "Filter": null
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "Trace",
+      "Filter": null
+    }
+  ]
+}
+2025-06-13T03:03:14.587 [Information] LoggerFilterOptions
+{
+  "MinLevel": "None",
+  "Rules": [
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": "Warning",
+      "Filter": null
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "Trace",
+      "Filter": null
+    }
+  ]
+}
+2025-06-13T03:03:14.587 [Information] FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+}
+2025-06-13T03:03:14.587 [Information] ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-06-13T03:03:14.587 [Information] SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:01:00",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+}
+2025-06-13T03:03:14.587 [Information] ScaleOptions
+{
+  "ScaleMetricsMaxAge": "00:02:00",
+  "ScaleMetricsSampleInterval": "00:00:10",
+  "MetricsPurgeEnabled": true,
+  "IsTargetScalingEnabled": true,
+  "IsRuntimeScalingEnabled": false
+}
+2025-06-13T03:03:14.588 [Information] Starting JobHost
+2025-06-13T03:03:14.588 [Information] Starting Host (HostId=chli2zb1afaccoeclcrit001, InstanceId=1a7a4104-ba7b-4a82-90b3-b8e101a87464, Version=4.1039.500.0, ProcessId=976, AppDomainId=1, InDebugMode=True, InDiagnosticMode=False, FunctionsExtensionVersion=~4)
+2025-06-13T03:03:14.595 [Information] Loading functions metadata
+2025-06-13T03:03:15.324 [Information] Reading functions metadata (Custom)
+2025-06-13T03:03:15.327 [Information] 0 functions found (Custom)
+2025-06-13T03:03:15.330 [Information] 2 functions loaded
+2025-06-13T03:03:15.346 [Information] Generating 2 job function(s)
+2025-06-13T03:03:15.399 [Information] Found the following functions:
+Host.Functions.eventgenerator
+Host.Functions.holamundo
+2025-06-13T03:03:15.408 [Information] Initializing function HTTP routes
+Mapped function route 'api/eventgenerator' [get,post] to 'eventgenerator'
+Mapped function route 'api/holamundo' [get,post] to 'holamundo'
+2025-06-13T03:03:15.411 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T03:03:15.418 [Information] Host initialized (819ms)
+2025-06-13T03:03:15.430 [Information] Host started (840ms)
+2025-06-13T03:03:15.430 [Information] Job host started
+2025-06-13T03:03:15.631 [Information] Traceback (most recent call last):
+2025-06-13T03:03:15.631 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T03:03:15.631 [Information] return func(*args, **kwargs)
+2025-06-13T03:03:15.631 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T03:03:15.631 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T03:03:15.632 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T03:03:15.632 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T03:03:15.632 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T03:03:15.632 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T03:03:15.632 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:03:15.632 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T03:03:15.804 [Information] Worker process started and initialized.
+2025-06-13T03:03:15.958 [Information] Traceback (most recent call last):
+2025-06-13T03:03:15.958 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T03:03:15.958 [Information] return func(*args, **kwargs)
+2025-06-13T03:03:15.958 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T03:03:15.958 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T03:03:15.958 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T03:03:15.958 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T03:03:15.958 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T03:03:15.958 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T03:03:15.958 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:03:15.958 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T03:03:19.766 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
+2025-06-13T03:03:10.512932227Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-13T03:03:10.521114030Z CA certificates copied and updated successfully.
+2025-06-13T03:03:10.528700833Z Updating certificates in /etc/ssl/certs...
+2025-06-13T03:03:13.498604890Z 1 added, 0 removed; done.
+2025-06-13T03:03:13.499200017Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T03:03:13.503291247Z done.
+2025-06-13T03:03:13.608914611Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T03:03:15.455410591Z Hosting environment: Production
+2025-06-13T03:03:15.455442182Z Content root path: /azure-functions-host
+2025-06-13T03:03:15.455447498Z Now listening on: http://[::]:80
+2025-06-13T03:03:15.455451851Z Application started. Press Ctrl+C to shut down.
+
+2025-06-13T03:03:14.088953283Z Updated CA certificates
+2025-06-13T03:03:14.518208497Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T03:03:14.518237149Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T03:03:08.067999846Z Updated CA certificates
+2025-06-13T03:03:08.706282473Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T03:03:09.529368669Z Hosting environment: Production
+2025-06-13T03:03:09.529423456Z Content root path: /app
+2025-06-13T03:03:09.529431807Z Now listening on: http://[::]:8081
+
+2025-06-13T03:03:26.121 [Information] Worker process started and initialized.
+2025-06-13T03:03:26.276 [Information] Traceback (most recent call last):
+2025-06-13T03:03:26.276 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T03:03:26.276 [Information] return func(*args, **kwargs)
+2025-06-13T03:03:26.276 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T03:03:26.276 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T03:03:26.276 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T03:03:26.276 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T03:03:26.276 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T03:03:26.276 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T03:03:26.276 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:03:26.276 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T03:03:36.459 [Information] Worker process started and initialized.
+2025-06-13T03:03:36.617 [Information] Traceback (most recent call last):
+2025-06-13T03:03:36.617 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T03:03:36.617 [Information] return func(*args, **kwargs)
+2025-06-13T03:03:36.617 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T03:03:36.617 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T03:03:36.617 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T03:03:36.617 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T03:03:36.617 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T03:03:36.617 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T03:03:36.617 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T03:03:36.617 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T03:03:36.617 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T03:03:36.618 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T03:03:36.618 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T03:03:36.618 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:03:36.618 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T03:03:45.458 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T03:03:45.459 [Information] ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-06-13T03:03:46.786 [Information] Worker process started and initialized.
+2025-06-13T03:03:46.943 [Information] Traceback (most recent call last):
+2025-06-13T03:03:46.943 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T03:03:46.943 [Information] return func(*args, **kwargs)
+2025-06-13T03:03:46.943 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T03:03:46.943 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T03:03:46.943 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T03:03:46.943 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T03:03:46.943 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T03:03:46.943 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T03:03:46.944 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T03:03:46.944 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T03:03:46.944 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T03:03:46.944 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T03:03:46.944 [Information] File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+2025-06-13T03:03:46.944 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:03:46.944 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+2025-06-13T03:03:49.610 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 36005,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:52.371 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 38774,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:54.644 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 41046,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:54.773 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 41176,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:03:56.812 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 43215,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T03:04:11.028 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28)
+2025-06-13T03:04:11.077 [Information] Executed 'Functions.holamundo' (Succeeded, Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28, Duration=52ms)
+2025-06-13T03:04:11.028 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28)
+2025-06-13T03:04:11.077 [Information] Executed 'Functions.holamundo' (Succeeded, Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28, Duration=52ms)
+2025-06-13T03:04:34.950Z INFO  - 
+
+2025-06-13T03:04:38.222 [Information] Executing 'Functions.eventgenerator' (Reason='This function was programmatically called via the host APIs.', Id=87f85a23-fc64-40db-a31d-3e91661c8748)
+2025-06-13T03:04:38.252 [Error] Executed 'Functions.eventgenerator' (Failed, Id=87f85a23-fc64-40db-a31d-3e91661c8748, Duration=32ms)
+Result: Failure
+Exception: ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py). Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+    from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:04:38.222 [Information] Executing 'Functions.eventgenerator' (Reason='This function was programmatically called via the host APIs.', Id=87f85a23-fc64-40db-a31d-3e91661c8748)
+2025-06-13T03:04:38.252 [Error] Executed 'Functions.eventgenerator' (Failed, Id=87f85a23-fc64-40db-a31d-3e91661c8748, Duration=32ms)
+Result: Failure
+Exception: ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py). Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+    from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:04:40.572 [Information] Executing 'Functions.eventgenerator' (Reason='This function was programmatically called via the host APIs.', Id=db642bd5-91cd-4bb7-b15b-ac36da89f9f2)
+2025-06-13T03:04:40.574 [Error] Executed 'Functions.eventgenerator' (Failed, Id=db642bd5-91cd-4bb7-b15b-ac36da89f9f2, Duration=1ms)
+Result: Failure
+Exception: ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py). Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+    from oneagent.sdk.tracers import CustomTracer
+2025-06-13T03:04:40.572 [Information] Executing 'Functions.eventgenerator' (Reason='This function was programmatically called via the host APIs.', Id=db642bd5-91cd-4bb7-b15b-ac36da89f9f2)
+2025-06-13T03:04:40.574 [Error] Executed 'Functions.eventgenerator' (Failed, Id=db642bd5-91cd-4bb7-b15b-ac36da89f9f2, Duration=1ms)
+Result: Failure
+Exception: ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py). Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/site/wwwroot/eventgenerator/__init__.py", line 14, in <module>
+    from oneagent.sdk.tracers import CustomTracer
