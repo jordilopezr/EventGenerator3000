@@ -752,3 +752,41 @@ Mapped function route 'api/holamundo' [get,post] to 'holamundo'
 2025-06-13T13:03:31.482 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
 2025-06-13T13:03:31.482 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
 2025-06-13T13:03:31.482 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:05:10  No new trace in the past 1 min(s).
+2025-06-13T13:05:32.542 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 154628,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:34.329 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 156415,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:34.440 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 156526,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
+2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
+2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
+2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
