@@ -1,0 +1,341 @@
+2025-06-13T02:36:41  Welcome, you are now connected to log-streaming service.
+Starting Log Tail -n 10 of existing logs ----
+/home/LogFiles/__lastCheckTime.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/__lastCheckTime.txt)
+06/11/2025 16:58:05
+/home/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt)
+2025-06-12T15:32:29  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt)
+2025-06-12T17:25:10    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/08cb2ce99082-65960193-f60b-4c22-a36f-49b792d8a67f.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/08cb2ce99082-65960193-f60b-4c22-a36f-49b792d8a67f.txt)
+2025-06-12T14:10:16  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,3, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/0cf80e18a987-e45174b6-b37c-4958-ae3c-391c6b95f012.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/0cf80e18a987-e45174b6-b37c-4958-ae3c-391c6b95f012.txt)
+2025-06-10T19:45:31  Startup Request, url: /newui, method: GET, type: request, pid: 768,1,3, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/0cf80e18a987-eff03e2b-ca82-4c87-81fc-b6cf4b7c5876.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/0cf80e18a987-eff03e2b-ca82-4c87-81fc-b6cf4b7c5876.txt)
+2025-06-10T19:53:09    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/0f4d42f34d2e-37cc0511-da11-492a-8f97-5faf59ef1c2b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/0f4d42f34d2e-37cc0511-da11-492a-8f97-5faf59ef1c2b.txt)
+2025-06-12T03:40:28    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/0f4d42f34d2e-470568bc-7646-4d40-b425-a2fdd2f56be3.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/0f4d42f34d2e-470568bc-7646-4d40-b425-a2fdd2f56be3.txt)
+2025-06-12T04:07:39    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/0f4d42f34d2e-f99b2390-4baa-4f56-8d23-911a6e30598c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/0f4d42f34d2e-f99b2390-4baa-4f56-8d23-911a6e30598c.txt)
+2025-06-12T03:28:44  Startup Request, url: /api/logstream, method: GET, type: request, pid: 769,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/281e3ef8a068-43ada4ff-2365-4302-a402-835e7105230e.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/281e3ef8a068-43ada4ff-2365-4302-a402-835e7105230e.txt)
+2025-06-12T05:05:51  Startup Request, url: /api/logstream, method: GET, type: request, pid: 767,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/2be2245545b4-169b9f09-b49a-4fae-adf4-77d8ae0b748e.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/2be2245545b4-169b9f09-b49a-4fae-adf4-77d8ae0b748e.txt)
+2025-06-10T16:47:09  Startup Request, url: /api/siteextensions/Microsoft.ApplicationInsights.AzureWebSites?api-version=2014-11-01, method: DELETE, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/2be2245545b4-16e32986-7347-4433-9c0d-b2af1faccf0c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/2be2245545b4-16e32986-7347-4433-9c0d-b2af1faccf0c.txt)
+2025-06-10T17:29:49    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/2be2245545b4-1e3abc53-ab57-4a6b-9d89-b54bc90efa0d.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/2be2245545b4-1e3abc53-ab57-4a6b-9d89-b54bc90efa0d.txt)
+2025-06-10T17:37:48    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/30c835241c8b-058a8eed-e944-4520-9b67-56ac343bb83c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/30c835241c8b-058a8eed-e944-4520-9b67-56ac343bb83c.txt)
+2025-06-12T15:03:10  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,18, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/30c835241c8b-060c76f9-e06e-44d1-9cd2-64bb0aa04f2a.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/30c835241c8b-060c76f9-e06e-44d1-9cd2-64bb0aa04f2a.txt)
+2025-06-12T15:03:30    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/33b4519bd08e-4b110d84-4ec6-48c2-b960-f635231826ad.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/33b4519bd08e-4b110d84-4ec6-48c2-b960-f635231826ad.txt)
+2025-06-11T18:39:35    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/33b4519bd08e-6d9761a3-b104-407a-a186-dc1e050441c6.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/33b4519bd08e-6d9761a3-b104-407a-a186-dc1e050441c6.txt)
+2025-06-11T18:50:42    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/33b4519bd08e-fa72d318-f6c0-48f3-a229-ddfaa820acfb.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/33b4519bd08e-fa72d318-f6c0-48f3-a229-ddfaa820acfb.txt)
+2025-06-11T18:39:22  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,22, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/35e23fa53e7e-1a8689e1-3f49-4375-ad30-8557eb17fade.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/35e23fa53e7e-1a8689e1-3f49-4375-ad30-8557eb17fade.txt)
+2025-06-11T19:34:05    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/35e23fa53e7e-30a2c924-9dd2-4ff5-8556-75300f465c36.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/35e23fa53e7e-30a2c924-9dd2-4ff5-8556-75300f465c36.txt)
+2025-06-11T19:21:14  Startup Request, url: /webssh/socket.io/?EIO=4&transport=polling&t=PTWS5MX&sid=ZJIc8N45VbnNSl7UAAAA, method: POST, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/35ece51b61d2-4e96f21e-7783-4df4-8b75-26ba58d0996d.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/35ece51b61d2-4e96f21e-7783-4df4-8b75-26ba58d0996d.txt)
+2025-06-10T20:44:55  Startup Request, url: /newui/fileManager, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/3f371e0c0e89-335bc217-ba0c-41db-9a0b-6fb1f450be3b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/3f371e0c0e89-335bc217-ba0c-41db-9a0b-6fb1f450be3b.txt)
+2025-06-12T22:11:11    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/3f371e0c0e89-8f6b2963-4066-4827-8ea2-969121064fe5.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/3f371e0c0e89-8f6b2963-4066-4827-8ea2-969121064fe5.txt)
+2025-06-12T22:02:25  Startup Request, url: /api/logstream, method: GET, type: request, pid: 767,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/3fbc065c76dd-0c877ac5-9585-46fb-afe6-2691f914f6b7.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/3fbc065c76dd-0c877ac5-9585-46fb-afe6-2691f914f6b7.txt)
+2025-06-12T13:41:57  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,22, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/3fbc065c76dd-5ca2636f-4001-44d0-87d6-5df5536d25d4.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/3fbc065c76dd-5ca2636f-4001-44d0-87d6-5df5536d25d4.txt)
+2025-06-12T13:42:16    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/45856da4d559-fc1f4258-e213-4996-b6dc-34bca6d3c774.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/45856da4d559-fc1f4258-e213-4996-b6dc-34bca6d3c774.txt)
+2025-06-11T15:29:52  Startup Request, url: /api/vfs/data/SitePackages/20250610204018.zip, method: DELETE, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/5b7adbf5eba5-894b7ba5-8931-44f2-ab38-bc4cc419fa02.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5b7adbf5eba5-894b7ba5-8931-44f2-ab38-bc4cc419fa02.txt)
+2025-06-10T19:03:30    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/5b7adbf5eba5-e4486d3b-1c93-4b3a-b106-35a18fe439de.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5b7adbf5eba5-e4486d3b-1c93-4b3a-b106-35a18fe439de.txt)
+2025-06-10T18:08:47  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/5fe727124d61-efe862ac-6fd4-40b1-b736-b188b641e1cf.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5fe727124d61-efe862ac-6fd4-40b1-b736-b188b641e1cf.txt)
+2025-06-12T21:57:19    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/5fe727124d61-fa916de0-b22f-43df-9906-e40d35e49fac.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5fe727124d61-fa916de0-b22f-43df-9906-e40d35e49fac.txt)
+2025-06-12T18:50:14  Startup Request, url: /api/logstream, method: GET, type: request, pid: 767,1,17, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/613d668c4c93-98616bf9-caaa-41c2-a23f-64a347b0ee0a.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/613d668c4c93-98616bf9-caaa-41c2-a23f-64a347b0ee0a.txt)
+2025-06-12T13:32:36  Startup Request, url: /api/vfs/site/wwwroot/cert/dynatrace.cer, method: PUT, type: request, pid: 768,1,16, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/66b773e8fa43-4064de60-3571-4ee2-8692-709dd6763492.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/66b773e8fa43-4064de60-3571-4ee2-8692-709dd6763492.txt)
+2025-06-11T17:59:30    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/66b773e8fa43-b6bb8a9e-243d-455d-a9f9-1b0891de54f6.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/66b773e8fa43-b6bb8a9e-243d-455d-a9f9-1b0891de54f6.txt)
+2025-06-11T17:59:14  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,44, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/66b773e8fa43-fbce3bed-4538-45da-bf2e-052b3a6c3f24.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/66b773e8fa43-fbce3bed-4538-45da-bf2e-052b3a6c3f24.txt)
+2025-06-11T18:13:57    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/6b3a806601b8-a433d2b5-b15a-4daa-a6a2-6d41ceddce70.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/6b3a806601b8-a433d2b5-b15a-4daa-a6a2-6d41ceddce70.txt)
+2025-06-12T18:47:33  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,70, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/6b3a806601b8-d271b84a-27f5-4047-96f8-1223cc9af900.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/6b3a806601b8-d271b84a-27f5-4047-96f8-1223cc9af900.txt)
+2025-06-12T18:47:53    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/74766633062f-8885f8c2-9bb7-4a84-9db5-15dff6075c4f.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/74766633062f-8885f8c2-9bb7-4a84-9db5-15dff6075c4f.txt)
+2025-06-10T20:40:17  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,22, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/74766633062f-ad52debb-7cdc-4ed1-af32-11b007fc7622.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/74766633062f-ad52debb-7cdc-4ed1-af32-11b007fc7622.txt)
+2025-06-10T20:40:34    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/75fc13c3b2c6-8fe81dea-354b-4e44-a8b8-24c2d9d48921.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/75fc13c3b2c6-8fe81dea-354b-4e44-a8b8-24c2d9d48921.txt)
+2025-06-10T19:12:39  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,20, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/79bd5e97dd8e-37664b24-6954-4bd4-b270-f588caeaa698.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/79bd5e97dd8e-37664b24-6954-4bd4-b270-f588caeaa698.txt)
+2025-06-10T19:14:23  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/79bd5e97dd8e-d56361d7-ef21-4e8d-84f1-8f7862868809.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/79bd5e97dd8e-d56361d7-ef21-4e8d-84f1-8f7862868809.txt)
+2025-06-10T19:40:31    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/7f02868d0817-437ac8ad-ed28-46d1-8acc-5143a42f7749.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/7f02868d0817-437ac8ad-ed28-46d1-8acc-5143a42f7749.txt)
+2025-06-12T14:43:57  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/817b1a873226-8b27fe6e-32d0-40f6-8125-3a3b946d070c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/817b1a873226-8b27fe6e-32d0-40f6-8125-3a3b946d070c.txt)
+2025-06-12T14:06:13  Startup Request, url: /webssh/socket.io/?EIO=4&transport=polling&t=PTaTd15&sid=kjONx_iADW5UHC7JAAAA, method: POST, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/906f8d558dfd-987262e3-0a39-436f-a578-82c89e31c385.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/906f8d558dfd-987262e3-0a39-436f-a578-82c89e31c385.txt)
+2025-06-10T17:45:40  Startup Request, url: /api/logstreamV2/?max=50&ago=5m&api-version=2016-09-01, method: GET, type: request, pid: 768,1,25, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/97465c9b014a-8546cb15-dbd3-4e18-beaf-f2c41faa94fe.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/97465c9b014a-8546cb15-dbd3-4e18-beaf-f2c41faa94fe.txt)
+2025-06-10T18:07:24    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/97465c9b014a-f2cac0a7-559e-4050-bdc9-13f97d18e231.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/97465c9b014a-f2cac0a7-559e-4050-bdc9-13f97d18e231.txt)
+2025-06-10T17:58:04  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/97dd35507b04-526cecd6-e376-495e-80e2-56203f0df24c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/97dd35507b04-526cecd6-e376-495e-80e2-56203f0df24c.txt)
+2025-06-11T16:39:08    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/97dd35507b04-7dbdeada-016d-4309-ace8-3bbd2bdb9715.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/97dd35507b04-7dbdeada-016d-4309-ace8-3bbd2bdb9715.txt)
+2025-06-11T16:38:52  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/a4b7a297d18f-049bccc7-c881-40d2-8001-86e769108b51.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/a4b7a297d18f-049bccc7-c881-40d2-8001-86e769108b51.txt)
+2025-06-12T15:06:30  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/a6197f86f4fd-25ce1ac4-f302-4483-a10a-d4abcdc0611b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/a6197f86f4fd-25ce1ac4-f302-4483-a10a-d4abcdc0611b.txt)
+2025-06-12T05:04:39  Startup Request, url: /api/logstream, method: GET, type: request, pid: 767,1,20, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/ac363509ef44-1fc674de-5981-48ec-a726-6bbc7448ad83.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ac363509ef44-1fc674de-5981-48ec-a726-6bbc7448ad83.txt)
+2025-06-12T15:27:24  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/c4bf9912a0a3-aa3477c1-7677-4aa3-b57d-20cc1f4f5297.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/c4bf9912a0a3-aa3477c1-7677-4aa3-b57d-20cc1f4f5297.txt)
+2025-06-11T15:22:46  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/deebf3803fe4-8d1236b0-29c4-4db4-9716-5da3b1159c77.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/deebf3803fe4-8d1236b0-29c4-4db4-9716-5da3b1159c77.txt)
+2025-06-11T17:33:18    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/deebf3803fe4-dd231b2d-eb9b-49b1-bbfe-1543fb942860.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/deebf3803fe4-dd231b2d-eb9b-49b1-bbfe-1543fb942860.txt)
+2025-06-11T17:10:28  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/e6dec7c61f16-93b700d7-0ebd-43e6-9be4-6da951cd0d3b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/e6dec7c61f16-93b700d7-0ebd-43e6-9be4-6da951cd0d3b.txt)
+2025-06-13T02:36:41  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,24, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/ea6f808e6898-1737336b-59ed-4c1a-844f-4066b7f496d5.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ea6f808e6898-1737336b-59ed-4c1a-844f-4066b7f496d5.txt)
+2025-06-11T15:12:52    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/ea6f808e6898-3314d6e7-97ef-435f-9ae3-5df33b48745b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ea6f808e6898-3314d6e7-97ef-435f-9ae3-5df33b48745b.txt)
+2025-06-11T15:12:36  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,28, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/ebc5550273e4-7fb4a145-a7fa-4280-a087-c47ea848e6a5.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ebc5550273e4-7fb4a145-a7fa-4280-a087-c47ea848e6a5.txt)
+2025-06-12T03:27:51  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,60, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt)
+2025-06-10T16:24:55    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt)
+2025-06-10T16:24:52  Startup Request, url: /api/deployments/4121749572688813, method: PUT, type: request, pid: 768,1,15, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/f2f0f8662b4b-e5d452ee-01f8-41e0-a2c3-ed5cf20a9a91.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2f0f8662b4b-e5d452ee-01f8-41e0-a2c3-ed5cf20a9a91.txt)
+2025-06-10T21:27:19  Startup Request, url: /newui, method: GET, type: request, pid: 768,1,5, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/f89a92d98325-a2cf8b38-370c-4c65-9c03-8ccf3c39a42d.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f89a92d98325-a2cf8b38-370c-4c65-9c03-8ccf3c39a42d.txt)
+2025-06-11T15:24:26  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/fb3fcac616f3-89b0c4e1-c2a2-4b52-ac24-709dace84328.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/fb3fcac616f3-89b0c4e1-c2a2-4b52-ac24-709dace84328.txt)
+2025-06-10T16:24:09  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,15, ScmType: None
+/home/LogFiles/2025_06_10_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_10_al0sdlwk00001B_default_docker.log)
+2025-06-10T21:27:46.741189826Z Updating certificates in /etc/ssl/certs...
+2025-06-10T21:27:49.511345029Z 1 added, 0 removed; done.
+2025-06-10T21:27:49.511373943Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-10T21:27:49.513707108Z done.
+2025-06-10T21:27:49.589284336Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-10T21:27:51.449928784Z Hosting environment: Production
+2025-06-10T21:27:51.449956024Z Content root path: /azure-functions-host
+2025-06-10T21:27:51.449961461Z Now listening on: http://[::]:80
+2025-06-10T21:27:51.449965778Z Application started. Press Ctrl+C to shut down.
+
+/home/LogFiles/2025_06_10_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_10_al0sdlwk00001B_docker.log)
+2025-06-10T21:27:47.295Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-10T21:27:47.360Z INFO  - Starting container for site
+2025-06-10T21:27:47.361Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_3_d6d3909a_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.4:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-10T21:27:48.075Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_3_d6d3909a_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-10T21:27:48.093Z INFO  - Container chli2zb1afaccoeclcrit001_3_d6d3909a_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-10T21:27:48.095Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_3_d6d3909a for site chli2zb1afaccoeclcrit001
+2025-06-10T21:28:03.610Z INFO  - Container chli2zb1afaccoeclcrit001_3_d6d3909a for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-10T21:28:03.611Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_3_d6d3909a_middleware for site chli2zb1afaccoeclcrit001
+2025-06-10T21:28:03.768Z INFO  - Container chli2zb1afaccoeclcrit001_3_d6d3909a_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+/home/LogFiles/2025_06_10_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_10_al0sdlwk00001B_easyauth_docker.log)
+2025-06-10T20:55:21.729813422Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-10T20:59:21.805737314Z Updated CA certificates
+2025-06-10T20:59:22.254400588Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-10T20:59:22.254474149Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-10T21:27:49.805489817Z Updated CA certificates
+2025-06-10T21:27:50.248628224Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-10T21:27:50.248660651Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+/home/LogFiles/2025_06_10_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_10_al0sdlwk00001B_msi_docker.log)
+2025-06-10T20:59:17.773327255Z Hosting environment: Production
+2025-06-10T20:59:17.774046209Z Content root path: /app
+2025-06-10T20:59:17.774562205Z Now listening on: http://[::]:8081
+
+2025-06-10T21:27:11.005516275Z Updated CA certificates
+2025-06-10T21:27:12.120907367Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-10T21:27:12.963486046Z Hosting environment: Production
+2025-06-10T21:27:12.963522474Z Content root path: /app
+2025-06-10T21:27:12.964149958Z Now listening on: http://[::]:8081
+
+/home/LogFiles/2025_06_11_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_11_al0sdlwk00001B_default_docker.log)
+2025-06-11T21:49:57.726658968Z Updating certificates in /etc/ssl/certs...
+2025-06-11T21:50:00.090407935Z 1 added, 0 removed; done.
+2025-06-11T21:50:00.091698553Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-11T21:50:00.094294626Z done.
+2025-06-11T21:50:00.252584339Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-11T21:50:02.502695962Z Hosting environment: Production
+2025-06-11T21:50:02.503417635Z Content root path: /azure-functions-host
+2025-06-11T21:50:02.503992959Z Now listening on: http://[::]:80
+2025-06-11T21:50:02.504448916Z Application started. Press Ctrl+C to shut down.
+
+/home/LogFiles/2025_06_11_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_11_al0sdlwk00001B_docker.log)
+2025-06-11T21:49:58.525Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-11T21:49:58.577Z INFO  - Starting container for site
+2025-06-11T21:49:58.579Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_16_4fa5be03_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.4:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-11T21:49:59.413Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_16_4fa5be03_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-11T21:49:59.434Z INFO  - Container chli2zb1afaccoeclcrit001_16_4fa5be03_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-11T21:49:59.438Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_16_4fa5be03 for site chli2zb1afaccoeclcrit001
+2025-06-11T21:50:03.083Z INFO  - Container chli2zb1afaccoeclcrit001_16_4fa5be03 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-11T21:50:03.085Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_16_4fa5be03_middleware for site chli2zb1afaccoeclcrit001
+2025-06-11T21:50:03.242Z INFO  - Container chli2zb1afaccoeclcrit001_16_4fa5be03_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+/home/LogFiles/2025_06_11_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_11_al0sdlwk00001B_easyauth_docker.log)
+2025-06-11T19:21:30.820843801Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-11T19:34:19.970095438Z Updated CA certificates
+2025-06-11T19:34:20.395769195Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-11T19:34:20.395802732Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-11T21:50:00.912743646Z Updated CA certificates
+2025-06-11T21:50:01.362403545Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-11T21:50:01.362432879Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+/home/LogFiles/2025_06_11_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_11_al0sdlwk00001B_msi_docker.log)
+2025-06-11T19:34:02.289121036Z Hosting environment: Production
+2025-06-11T19:34:02.289916940Z Content root path: /app
+2025-06-11T19:34:02.290580170Z Now listening on: http://[::]:8081
+
+2025-06-11T21:49:41.978824227Z Updated CA certificates
+2025-06-11T21:49:43.335357171Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-11T21:49:44.429524327Z Hosting environment: Production
+2025-06-11T21:49:44.429599609Z Content root path: /app
+2025-06-11T21:49:44.429606857Z Now listening on: http://[::]:8081
+
+/home/LogFiles/2025_06_12_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_12_al0sdlwk00001B_default_docker.log)
+2025-06-12T22:22:38.346184285Z Updating certificates in /etc/ssl/certs...
+2025-06-12T22:22:43.181168354Z 1 added, 0 removed; done.
+2025-06-12T22:22:43.181488934Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-12T22:22:43.189122867Z done.
+2025-06-12T22:22:43.267286447Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-12T22:22:44.751379239Z Hosting environment: Production
+2025-06-12T22:22:44.753130461Z Content root path: /azure-functions-host
+2025-06-12T22:22:44.753151213Z Now listening on: http://[::]:80
+2025-06-12T22:22:44.753558688Z Application started. Press Ctrl+C to shut down.
+
+/home/LogFiles/2025_06_12_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_12_al0sdlwk00001B_docker.log)
+2025-06-12T22:22:39.173Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-12T22:22:39.270Z INFO  - Starting container for site
+2025-06-12T22:22:39.272Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_52_eb87b3a1_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.4:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-12T22:22:40.236Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_52_eb87b3a1_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-12T22:22:40.265Z INFO  - Container chli2zb1afaccoeclcrit001_52_eb87b3a1_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-12T22:22:40.267Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_52_eb87b3a1 for site chli2zb1afaccoeclcrit001
+2025-06-12T22:22:55.777Z INFO  - Container chli2zb1afaccoeclcrit001_52_eb87b3a1 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-12T22:22:55.779Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_52_eb87b3a1_middleware for site chli2zb1afaccoeclcrit001
+2025-06-12T22:22:55.937Z INFO  - Container chli2zb1afaccoeclcrit001_52_eb87b3a1_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+/home/LogFiles/2025_06_12_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_12_al0sdlwk00001B_easyauth_docker.log)
+2025-06-12T22:03:18.802425226Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-12T22:11:17.170142198Z Updated CA certificates
+2025-06-12T22:11:17.584026686Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-12T22:11:17.584098847Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-12T22:22:42.245029395Z Updated CA certificates
+2025-06-12T22:22:43.099363487Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-12T22:22:43.099389387Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+/home/LogFiles/2025_06_12_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_12_al0sdlwk00001B_msi_docker.log)
+2025-06-12T22:11:12.477580683Z Hosting environment: Production
+2025-06-12T22:11:12.477617008Z Content root path: /app
+2025-06-12T22:11:12.477622249Z Now listening on: http://[::]:8081
+
+2025-06-12T22:22:35.324741294Z Updated CA certificates
+2025-06-12T22:22:35.997010517Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-12T22:22:36.860105778Z Hosting environment: Production
+2025-06-12T22:22:36.860141635Z Content root path: /app
+2025-06-12T22:22:36.860146344Z Now listening on: http://[::]:8081
+
+/home/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log)
+2025-06-13T02:29:08.985556650Z Updating certificates in /etc/ssl/certs...
+2025-06-13T02:29:11.622763372Z 1 added, 0 removed; done.
+2025-06-13T02:29:11.622789087Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T02:29:11.625861382Z done.
+2025-06-13T02:29:11.723674309Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T02:29:13.514785542Z Hosting environment: Production
+2025-06-13T02:29:13.514814467Z Content root path: /azure-functions-host
+2025-06-13T02:29:13.514819394Z Now listening on: http://[::]:80
+2025-06-13T02:29:13.514824059Z Application started. Press Ctrl+C to shut down.
+
+/home/LogFiles/2025_06_13_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_docker.log)
+2025-06-13T02:29:09.549Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T02:29:09.593Z INFO  - Starting container for site
+2025-06-13T02:29:09.594Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_54_9ef924df_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.3:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-13T02:29:10.318Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T02:29:10.326Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:29:10.327Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df for site chli2zb1afaccoeclcrit001
+2025-06-13T02:29:14.468Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T02:29:14.469Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_54_9ef924df_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T02:29:14.641Z INFO  - Container chli2zb1afaccoeclcrit001_54_9ef924df_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+/home/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log)
+2025-06-13T02:29:11.942190493Z Updated CA certificates
+2025-06-13T02:29:12.417512349Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T02:29:12.417543869Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+/home/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log)
+2025-06-13T02:28:43.533351868Z Updated CA certificates
+2025-06-13T02:28:44.127089786Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T02:28:45.177209809Z Hosting environment: Production
+2025-06-13T02:28:45.177248784Z Content root path: /app
+2025-06-13T02:28:45.177854272Z Now listening on: http://[::]:8081
+
+/home/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log)
+2025-06-13T02:29:44.956 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T02:29:44.956 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T02:29:44.957 [Information] File "/home/site/wwwroot/EventGenerator3000/__init__.py", line 14, in <module>
+2025-06-13T02:29:44.957 [Information] from oneagent.sdk.tracers import CustomTracer
+2025-06-13T02:29:44.957 [Error] ImportError: cannot import name 'CustomTracer' from 'oneagent.sdk.tracers' (/home/site/wwwroot/.python_packages/lib/site-packages/oneagent/sdk/tracers.py)
+/home/LogFiles/Application/Functions/Function/holamundo/2025-06-11T17-35-38Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Function/holamundo/2025-06-11T17-35-38Z-46ace6e5d7.log)
+2025-06-11T18:52:06.911 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=a2953c5c-57be-41dc-a05c-04470ba4596d)
+2025-06-11T18:52:06.915 [Information] Executed 'Functions.holamundo' (Succeeded, Id=a2953c5c-57be-41dc-a05c-04470ba4596d, Duration=4ms)
+2025-06-11T19:31:23.979 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=87f00e84-355d-4570-9628-5c861af921ae)
+2025-06-11T19:31:24.012 [Information] Executed 'Functions.holamundo' (Succeeded, Id=87f00e84-355d-4570-9628-5c861af921ae, Duration=30ms)
+2025-06-12T15:10:09.652 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=60b007c4-d6f8-4bad-9aba-14ac35ce4d19)
+2025-06-12T15:10:09.702 [Information] Executed 'Functions.holamundo' (Succeeded, Id=60b007c4-d6f8-4bad-9aba-14ac35ce4d19, Duration=48ms)
+2025-06-12T17:27:44.161 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=d69b8fd5-3b10-48e2-b9af-55403a72e680)
+2025-06-12T17:27:44.169 [Information] Executed 'Functions.holamundo' (Succeeded, Id=d69b8fd5-3b10-48e2-b9af-55403a72e680, Duration=10ms)
+2025-06-12T18:52:21.290 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=1f8a9afe-26ce-4731-b7f7-906451ecc0ae)
+2025-06-12T18:52:21.346 [Information] Executed 'Functions.holamundo' (Succeeded, Id=1f8a9afe-26ce-4731-b7f7-906451ecc0ae, Duration=63ms)
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+2025-06-13T02:29:08.967113643Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-13T02:29:08.973001782Z CA certificates copied and updated successfully.
+2025-06-13T02:29:08.985556650Z Updating certificates in /etc/ssl/certs...
+2025-06-13T02:29:11.622763372Z 1 added, 0 removed; done.
+2025-06-13T02:29:11.622789087Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T02:29:11.625861382Z done.
+2025-06-13T02:29:11.723674309Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T02:29:13.514785542Z Hosting environment: Production
+2025-06-13T02:29:13.514814467Z Content root path: /azure-functions-host
+2025-06-13T02:29:13.514819394Z Now listening on: http://[::]:80
+2025-06-13T02:29:13.514824059Z Application started. Press Ctrl+C to shut down.
+
+2025-06-13T02:29:11.942190493Z Updated CA certificates
+2025-06-13T02:29:12.417512349Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T02:29:12.417543869Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T02:28:43.533351868Z Updated CA certificates
+2025-06-13T02:28:44.127089786Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T02:28:45.177209809Z Hosting environment: Production
+2025-06-13T02:28:45.177248784Z Content root path: /app
+2025-06-13T02:28:45.177854272Z Now listening on: http://[::]:8081
+
+2025-06-13T02:38:41  No new trace in the past 1 min(s).
