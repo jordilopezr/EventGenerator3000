@@ -1,7 +1,7 @@
-2025-06-13T11:10:16  Welcome, you are now connected to log-streaming service.
+2025-06-13T13:02:09  Welcome, you are now connected to log-streaming service.
 Starting Log Tail -n 10 of existing logs ----
 /home/LogFiles/__lastCheckTime.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/__lastCheckTime.txt)
-06/11/2025 16:58:05
+06/13/2025 13:01:40
 /home/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt)
 2025-06-12T15:32:29  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt)
@@ -128,6 +128,12 @@ Starting Log Tail -n 10 of existing logs ----
 2025-06-11T15:12:36  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,28, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/ebc5550273e4-7fb4a145-a7fa-4280-a087-c47ea848e6a5.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ebc5550273e4-7fb4a145-a7fa-4280-a087-c47ea848e6a5.txt)
 2025-06-12T03:27:51  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,60, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/ed2012c75067-8d6074d1-4467-42aa-a9ac-60feea0962e9.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ed2012c75067-8d6074d1-4467-42aa-a9ac-60feea0962e9.txt)
+2025-06-13T12:44:27    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/ed2012c75067-9634b650-42ad-4547-9b12-ef54e811a42c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ed2012c75067-9634b650-42ad-4547-9b12-ef54e811a42c.txt)
+2025-06-13T11:29:19    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+/home/LogFiles/kudu/trace/ed2012c75067-cfb02a99-2baa-485d-abee-c6fe44d11867.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ed2012c75067-cfb02a99-2baa-485d-abee-c6fe44d11867.txt)
+2025-06-13T11:29:00  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,47, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt)
 2025-06-10T16:24:55    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt)
@@ -271,50 +277,66 @@ python3.10-appservice-stage5
 2025-06-12T22:22:36.860146344Z Now listening on: http://[::]:8081
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log)
-2025-06-13T11:07:42.767285855Z Updating certificates in /etc/ssl/certs...
-2025-06-13T11:07:45.614582694Z 1 added, 0 removed; done.
-2025-06-13T11:07:45.615010197Z Running hooks in /etc/ca-certificates/update.d...
-2025-06-13T11:07:45.618572171Z done.
-2025-06-13T11:07:45.716949136Z Starting OpenBSD Secure Shell server: sshd.
-2025-06-13T11:07:47.508183481Z Hosting environment: Production
-2025-06-13T11:07:47.508937067Z Content root path: /azure-functions-host
-2025-06-13T11:07:47.508956941Z Now listening on: http://[::]:80
-2025-06-13T11:07:47.509178592Z Application started. Press Ctrl+C to shut down.
+2025-06-13T13:01:58.959182877Z Updating certificates in /etc/ssl/certs...
+2025-06-13T13:02:01.496212093Z 1 added, 0 removed; done.
+2025-06-13T13:02:01.497070377Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T13:02:01.499657849Z done.
+2025-06-13T13:02:01.675641064Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T13:02:04.009080665Z Hosting environment: Production
+2025-06-13T13:02:04.009106986Z Content root path: /azure-functions-host
+2025-06-13T13:02:04.009111624Z Now listening on: http://[::]:80
+2025-06-13T13:02:04.009114420Z Application started. Press Ctrl+C to shut down.
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_docker.log)
-2025-06-13T11:07:42.319Z INFO  -  Status: Image is up to date for mcr.microsoft.com/azure-functions/python:4-python3.10-appservice-stage5
-2025-06-13T11:07:42.329Z INFO  - Pull Image successful, Time taken: 0 Seconds
-2025-06-13T11:07:42.361Z INFO  - Starting container for site
-2025-06-13T11:07:42.363Z INFO  - docker run -d --expose=80 --name chli2zb1afaccoeclcrit001_64_f4cb6410 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/azure-functions/python:4-python3.10-appservice-stage5 
-2025-06-13T11:07:44.203Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_64_f4cb6410_msiProxy for site chli2zb1afaccoeclcrit001
-2025-06-13T11:07:44.223Z INFO  - Container chli2zb1afaccoeclcrit001_64_f4cb6410_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T11:07:44.225Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_64_f4cb6410 for site chli2zb1afaccoeclcrit001
-2025-06-13T11:07:48.376Z INFO  - Container chli2zb1afaccoeclcrit001_64_f4cb6410 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T11:07:48.379Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_64_f4cb6410_middleware for site chli2zb1afaccoeclcrit001
-2025-06-13T11:07:48.548Z INFO  - Container chli2zb1afaccoeclcrit001_64_f4cb6410_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:01:59.483Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T13:01:59.530Z INFO  - Starting container for site
+2025-06-13T13:01:59.531Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.5:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-13T13:02:00.321Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T13:02:00.332Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:02:00.333Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f for site chli2zb1afaccoeclcrit001
+2025-06-13T13:02:04.521Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:02:04.522Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T13:02:04.703Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
 /home/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log)
-2025-06-13T03:14:59.501528434Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+2025-06-13T11:29:18.585764060Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
-2025-06-13T03:19:10.778406407Z Updated CA certificates
-2025-06-13T03:19:11.190118677Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
-2025-06-13T03:19:11.190151016Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+2025-06-13T12:44:35.819472831Z Updated CA certificates
+2025-06-13T12:44:36.235991143Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T12:44:36.236022874Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
-2025-06-13T11:07:45.907348672Z Updated CA certificates
-2025-06-13T11:07:46.330624929Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
-2025-06-13T11:07:46.330659227Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+2025-06-13T13:02:02.526289363Z Updated CA certificates
+2025-06-13T13:02:02.938432692Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T13:02:02.938465326Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log)
-2025-06-13T03:18:53.787889233Z Hosting environment: Production
-2025-06-13T03:18:53.787913558Z Content root path: /app
-2025-06-13T03:18:53.789532243Z Now listening on: http://[::]:8081
+2025-06-13T12:44:31.602376011Z Hosting environment: Production
+2025-06-13T12:44:31.602408257Z Content root path: /app
+2025-06-13T12:44:31.602413482Z Now listening on: http://[::]:8081
 
-2025-06-13T11:07:40.216169116Z Updated CA certificates
-2025-06-13T11:07:40.811764142Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
-2025-06-13T11:07:41.651655533Z Hosting environment: Production
-2025-06-13T11:07:41.651689676Z Content root path: /app
-2025-06-13T11:07:41.651695788Z Now listening on: http://[::]:8081
+2025-06-13T13:01:42.650207271Z Updated CA certificates
+2025-06-13T13:01:43.262016201Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T13:01:44.065423333Z Hosting environment: Production
+2025-06-13T13:01:44.065460020Z Content root path: /app
+2025-06-13T13:01:44.066062055Z Now listening on: http://[::]:8081
 
 /home/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log)
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 3122,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:02:08.306 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
+/home/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log)
+2025-06-13T03:04:11.028 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28)
+2025-06-13T03:04:11.077 [Information] Executed 'Functions.holamundo' (Succeeded, Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28, Duration=52ms)
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+2025-06-13T13:02:11.815 [Information] Host Status: {
   "id": "chli2zb1afaccoeclcrit001",
   "state": "Running",
   "version": "4.1039.500.0",
@@ -322,11 +344,449 @@ python3.10-appservice-stage5
   "platformVersion": "103.0.7.377",
   "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
   "computerName": "al0sdlwk00001B",
-  "processUptime": 27062210,
+  "processUptime": 10135,
   "functionAppContentEditingState": "Unknown"
 }
-/home/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log)
-2025-06-13T03:04:11.028 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28)
-2025-06-13T03:04:11.077 [Information] Executed 'Functions.holamundo' (Succeeded, Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28, Duration=52ms)
-Ending Log Tail of existing logs ---
-Starting Live Log Stream ---
+2025-06-13T13:02:11.853 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 10173,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:02:12.664 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 10984,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:02:14.702 [Information] Worker process started and initialized.
+2025-06-13T13:02:14.853 [Information] Traceback (most recent call last):
+2025-06-13T13:02:14.853 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:02:14.853 [Information] return func(*args, **kwargs)
+2025-06-13T13:02:14.853 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:02:14.853 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:02:14.853 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:02:14.854 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:02:14.854 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:02:14.854 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:02:14.855 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:02:51.130Z INFO  - Pulling image: mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:02:51.509Z INFO  - stage5 Pulling from appsvc/msitokenservice
+2025-06-13T13:02:51.520Z INFO  -  Digest: sha256:15c4360552ca5d886db18e4eaa6a95993305c67dae381aa8505592cd7c45bd46
+2025-06-13T13:02:51.522Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:02:51.533Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T13:02:51.558Z INFO  - Starting container for site
+2025-06-13T13:02:51.559Z INFO  - docker run -d --expose=8081 --name chli2zb1afaccoeclcrit001_1_29b69493_msiProxy -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITE_AUTH_ENABLED=False -e PORT=8081 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/msitokenservice:stage5 
+6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.5:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������2025-06-13T13:02:59.958Z INFO  - Container chli2zb1afaccoeclcrit001_1_29b69493 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:02:59.960Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_29b69493_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T13:02:58.749 [Warning] The Dashboard setting is no longer supported. See https://aka.ms/functions-dashboard for details.
+2025-06-13T13:02:58.773 [Information] Initializing Warmup Extension.
+2025-06-13T13:02:58.828 [Information] Initializing Host. OperationId: '7e855b87-02ac-445b-94a9-6f0468cf3064'.
+2025-06-13T13:02:58.831 [Information] Host initialization: ConsecutiveErrors=0, StartupCount=1, OperationId=7e855b87-02ac-445b-94a9-6f0468cf3064
+2025-06-13T13:02:58.876 [Information] ApplicationInsightsLoggerOptions
+{
+  "SamplingSettings": {
+    "EvaluationInterval": "00:00:15",
+    "InitialSamplingPercentage": 100.0,
+    "MaxSamplingPercentage": 100.0,
+    "MaxTelemetryItemsPerSecond": 20.0,
+    "MinSamplingPercentage": 0.1,
+    "MovingAverageRatio": 0.25,
+    "SamplingPercentageDecreaseTimeout": "00:02:00",
+    "SamplingPercentageIncreaseTimeout": "00:15:00"
+  },
+  "SamplingExcludedTypes": null,
+  "SamplingIncludedTypes": null,
+  "SnapshotConfiguration": null,
+  "EnablePerformanceCountersCollection": true,
+  "HttpAutoCollectionOptions": {
+    "EnableHttpTriggerExtendedInfoCollection": true,
+    "EnableW3CDistributedTracing": true,
+    "EnableResponseHeaderInjection": true
+  },
+  "LiveMetricsInitializationDelay": "00:00:15",
+  "EnableLiveMetrics": true,
+  "EnableLiveMetricsFilters": false,
+  "EnableQueryStringTracing": false,
+  "EnableDependencyTracking": true,
+  "DependencyTrackingOptions": null,
+  "TokenCredentialOptions": null,
+  "DiagnosticsEventListenerLogLevel": null,
+  "EnableAutocollectedMetricsExtractor": false,
+  "EnableMetricsCustomDimensionOptimization": false,
+  "EnableAdaptiveSamplingDelay": true,
+  "AdaptiveSamplingInitializationDelay": "00:00:15"
+}
+2025-06-13T13:02:58.877 [Information] LoggerFilterOptions
+{
+  "MinLevel": "None",
+  "Rules": [
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": "Warning",
+      "Filter": null
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "Trace",
+      "Filter": null
+    }
+  ]
+}
+2025-06-13T13:02:58.877 [Information] LoggerFilterOptions
+{
+  "MinLevel": "None",
+  "Rules": [
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": "Warning",
+      "Filter": null
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.WebHostSystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": null,
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "None",
+      "Filter": null
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": null,
+      "Filter": "<AddFilter>b__0"
+    },
+    {
+      "ProviderName": "Microsoft.Azure.WebJobs.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider",
+      "CategoryName": null,
+      "LogLevel": "Trace",
+      "Filter": null
+    }
+  ]
+}
+2025-06-13T13:02:58.877 [Information] FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+}
+2025-06-13T13:02:58.877 [Information] ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-06-13T13:02:58.877 [Information] SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:01:00",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+}
+2025-06-13T13:02:58.877 [Information] ScaleOptions
+{
+  "ScaleMetricsMaxAge": "00:02:00",
+  "ScaleMetricsSampleInterval": "00:00:10",
+  "MetricsPurgeEnabled": true,
+  "IsTargetScalingEnabled": true,
+  "IsRuntimeScalingEnabled": false
+}
+2025-06-13T13:02:58.878 [Information] Starting JobHost
+2025-06-13T13:02:58.878 [Information] Starting Host (HostId=chli2zb1afaccoeclcrit001, InstanceId=6a46a298-8594-4312-bc48-2c9317e87155, Version=4.1039.500.0, ProcessId=976, AppDomainId=1, InDebugMode=True, InDiagnosticMode=False, FunctionsExtensionVersion=~4)
+2025-06-13T13:02:58.886 [Information] Loading functions metadata
+2025-06-13T13:02:59.695 [Information] Reading functions metadata (Custom)
+2025-06-13T13:02:59.698 [Information] 0 functions found (Custom)
+2025-06-13T13:02:59.701 [Information] 2 functions loaded
+2025-06-13T13:02:59.717 [Information] Generating 2 job function(s)
+2025-06-13T13:02:59.742 [Information] Found the following functions:
+Host.Functions.demo3
+Host.Functions.holamundo
+2025-06-13T13:02:59.747 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T13:02:59.749 [Information] Initializing function HTTP routes
+Mapped function route 'api/demo3' [get,post] to 'demo3'
+Mapped function route 'api/holamundo' [get,post] to 'holamundo'
+2025-06-13T13:02:59.751 [Information] Host initialized (870ms)
+2025-06-13T13:02:59.759 [Information] Host started (880ms)
+2025-06-13T13:02:59.759 [Information] Job host started
+2025-06-13T13:03:00.112 [Information] Traceback (most recent call last):
+2025-06-13T13:03:00.112 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:03:00.112 [Information] return func(*args, **kwargs)
+2025-06-13T13:03:00.112 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:03:00.112 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:03:00.112 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:03:00.112 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:03:00.113 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:03:00.113 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:03:00.113 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:03:00.232 [Information] Worker process started and initialized.
+2025-06-13T13:03:00.373 [Information] Traceback (most recent call last):
+2025-06-13T13:03:00.373 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:03:00.373 [Information] return func(*args, **kwargs)
+2025-06-13T13:03:00.373 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:03:00.373 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:03:00.373 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:03:00.373 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:03:00.373 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:03:00.373 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:03:00.373 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:03:04.122 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
+2025-06-13T13:03:07.367Z INFO  - Container chli2zb1afaccoeclcrit001_1_29b69493_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:03:07.471 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 9550,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:03:07.493 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T13:03:07.494 [Information] ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-06-13T13:03:09.232 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 11317,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:03:09.236 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 11322,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:03:10.657 [Information] Worker process started and initialized.
+2025-06-13T13:02:55.120278403Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-13T13:02:55.133954678Z CA certificates copied and updated successfully.
+2025-06-13T13:02:55.142697228Z Updating certificates in /etc/ssl/certs...
+2025-06-13T13:02:57.813257660Z 1 added, 0 removed; done.
+2025-06-13T13:02:57.813846604Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T13:02:57.816288135Z done.
+2025-06-13T13:02:57.924326828Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T13:02:59.776457350Z Hosting environment: Production
+2025-06-13T13:02:59.776486198Z Content root path: /azure-functions-host
+2025-06-13T13:02:59.776491665Z Now listening on: http://[::]:80
+2025-06-13T13:02:59.776496392Z Application started. Press Ctrl+C to shut down.
+
+2025-06-13T13:02:58.448341639Z Updated CA certificates
+2025-06-13T13:02:58.875276675Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T13:02:58.875307697Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T13:02:52.507680115Z Updated CA certificates
+2025-06-13T13:02:53.112274579Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T13:02:53.934224696Z Hosting environment: Production
+2025-06-13T13:02:53.934258064Z Content root path: /app
+2025-06-13T13:02:53.934264161Z Now listening on: http://[::]:8081
+
+2025-06-13T13:03:10.881 [Information] Traceback (most recent call last):
+2025-06-13T13:03:10.882 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:03:10.882 [Information] return func(*args, **kwargs)
+2025-06-13T13:03:10.882 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:03:10.882 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:03:10.882 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:03:10.882 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:03:10.882 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:03:10.882 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:03:10.882 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:03:20.982 [Information] Worker process started and initialized.
+2025-06-13T13:03:21.130 [Information] Traceback (most recent call last):
+2025-06-13T13:03:21.130 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:03:21.130 [Information] return func(*args, **kwargs)
+2025-06-13T13:03:21.130 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:03:21.130 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:03:21.130 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:03:21.130 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:03:21.131 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:03:21.131 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:03:21.131 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:03:31.329 [Information] Worker process started and initialized.
+2025-06-13T13:03:31.481 [Information] Traceback (most recent call last):
+2025-06-13T13:03:31.481 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:03:31.481 [Information] return func(*args, **kwargs)
+2025-06-13T13:03:31.482 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:03:31.482 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:03:31.482 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:03:31.482 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:03:31.482 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
+2025-06-13T13:03:31.482 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:03:31.482 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:05:10  No new trace in the past 1 min(s).
+2025-06-13T13:05:32.542 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 154628,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:34.329 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 156415,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:34.440 [Information] Host Status: {
+  "id": "chli2zb1afaccoeclcrit001",
+  "state": "Running",
+  "version": "4.1039.500.0",
+  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
+  "platformVersion": "103.0.7.377",
+  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
+  "computerName": "al0sdlwk00001B",
+  "processUptime": 156526,
+  "functionAppContentEditingState": "Unknown"
+}
+2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
+2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
+2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
+2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
