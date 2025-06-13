@@ -29,9 +29,9 @@ RequestsInstrumentor().instrument(tracer_provider=provider)
 def main(req: func.HttpRequest) -> func.HttpResponse:
     with tracer.start_as_current_span("httpbin_request") as span:
         # Hard-coded proxy and certificate path
-        proxy_url = "http://proxy.server:3128"
+        proxy_url = "http://proxy.sig.umbrella.com:443"
         proxies = {"http": proxy_url, "https": proxy_url}
-        cert_path = "/var/sal/cert/cert.der"
+        cert_path = os.path.join('/var/ssl/certs', 'C5091132E9ADF8AD3E33932AE60A5C8FA939E824.der')
         span.set_attribute("proxy.url", proxy_url)
 
         try:
