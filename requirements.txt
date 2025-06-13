@@ -5,3 +5,4 @@ opentelemetry-sdk>=1.19.0
 opentelemetry-exporter-otlp>=1.19.0
 opentelemetry-instrumentation-requests>=0.33b0
 dynatrace-opentelemetry-core>=1.313.4
+opentelemetry-exporter-dynatrace
