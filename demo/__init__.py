@@ -8,29 +8,25 @@ from opentelemetry import trace
 from opentelemetry.sdk.resources import Resource, SERVICE_NAME
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
-from opentelemetry.exporter.dynatrace import DynatraceExporter
+from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
 from opentelemetry.instrumentation.requests import RequestsInstrumentor
 
 # --- Configuración de OpenTelemetry ---
-
 DT_API_URL = os.getenv("DT_API_URL")
 DT_API_TOKEN = os.getenv("DT_API_TOKEN")
-
-# MEJORA: Controlar la verificación SSL con una variable de entorno.
-# Establece DT_IGNORE_SSL_VERIFICATION a "true" en tu entorno de prueba.
+# Ignorar SSL para Dynatrace si se define la variable DT_IGNORE_SSL_VERIFICATION="true"
 DT_IGNORE_SSL = os.getenv("DT_IGNORE_SSL_VERIFICATION", "false").lower() == "true"
-# Por seguridad, si la variable no está, se asume 'false' y SÍ se verifica el SSL.
 
+# Recurso y provider
 resource = Resource({SERVICE_NAME: "httpbin-proxy-func"})
 provider = TracerProvider(resource=resource)
 
 if DT_API_URL and DT_API_TOKEN:
-    # Se usa la variable DT_IGNORE_SSL para decidir si verificar o no.
-    # El valor será False solo si DT_IGNORE_SSL_VERIFICATION es "true".
-    exporter = DynatraceExporter(
-        api_url=DT_API_URL,
-        api_token=DT_API_TOKEN,
-        verify_ssl=not DT_IGNORE_SSL 
+    headers = {"Authorization": f"Api-Token {DT_API_TOKEN}"}
+    exporter = OTLPSpanExporter(
+        endpoint=DT_API_URL,
+        headers=headers,
+        insecure=DT_IGNORE_SSL
     )
     processor = BatchSpanProcessor(exporter)
     provider.add_span_processor(processor)
@@ -38,26 +34,21 @@ if DT_API_URL and DT_API_TOKEN:
 trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
 
+# Instrumentar requests
 RequestsInstrumentor().instrument(tracer_provider=provider)
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    # ADVERTENCIA: Se registrará en la traza si la verificación SSL está desactivada.
+    # Registrar advertencia si SSL está deshabilitado
     if DT_IGNORE_SSL:
-        print("ADVERTENCIA: La verificación SSL para el exporter de Dynatrace está DESACTIVADA.")
         trace.get_current_span().set_attribute("security.warning.ssl_verify_disabled", True)
 
-    with tracer.start_as_current_span("httpbin_proxy_function_execution") as parent_span:
-        
-        proxy_url = os.getenv("PROXY_URL", "http://proxy.sig.umbrella.com:443")
-        cert_path = os.getenv("PROXY_CERT_PATH")
-
+    with tracer.start_as_current_span("httpbin_proxy_function_execution") as span:
+        # Proxy y certificado en duro
+        proxy_url = "http://proxy.sig.umbrella.com:443"
+        cert_path = "/var/ssl/certs/C5091132E9ADF8AD3E33932AE60A5C8FA939E824.der"
         proxies = {"http": proxy_url, "https": proxy_url}
-        parent_span.set_attribute("proxy.url", proxy_url)
-        
-        data = None
-        success = False
-        status_code_to_return = 500
+        span.set_attribute("proxy.url", proxy_url)
 
         try:
             resp = requests.get(
@@ -66,37 +57,33 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 verify=cert_path,
                 timeout=10
             )
-            
-            parent_span.set_attribute("http.status_code", resp.status_code)
+            span.set_attribute("http.status_code", resp.status_code)
             resp.raise_for_status()
 
             try:
                 data = resp.json()
-                parent_span.add_event("Successfully parsed JSON response")
-            except JSONDecodeError as json_e:
-                parent_span.record_exception(json_e)
+                span.add_event("Successfully parsed JSON response", {"data_length": len(json.dumps(data))})
+            except JSONDecodeError:
+                span.record_exception(JSONDecodeError)
                 data = {"error": "Failed to decode JSON response", "response_text": resp.text}
-                
+
             success = True
-            status_code_to_return = resp.status_code
-
-        except requests.exceptions.RequestException as e:
-            parent_span.record_exception(e)
-            data = {"error": str(e)}
-        
+            status_code = resp.status_code
         except Exception as e:
-            parent_span.record_exception(e)
-            data = {"error": f"An unexpected error occurred: {str(e)}"}
+            span.record_exception(e)
+            data = {"error": str(e)}
+            success = False
+            status_code = 500
 
+    # Respuesta HTTP con resumen
     summary = {
         "function_name": "httpbin-proxy-func",
         "request_successful": success,
-        "response_data": data,
-        "ssl_verification_disabled": DT_IGNORE_SSL
+        "response_data": data
     }
 
     return func.HttpResponse(
         json.dumps(summary),
-        status_code=200 if success else status_code_to_return,
+        status_code=status_code,
         mimetype="application/json"
     )
