@@ -15,10 +15,8 @@ steps:
   inputs:
     # Empaqueta todo el contenido desde la raíz del directorio de trabajo.
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
-    
     # Excluye la carpeta raíz del zip, que es el comportamiento correcto.
     includeRootFolder: false
-    
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
@@ -28,3 +26,12 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     artifactName: 'drop'
+
+# --- Nuevo paso de despliegue ---
+- task: AzureFunctionApp@1
+  displayName: 'Deploy Azure Function App'
+  inputs:
+    azureSubscription: '<<Tu Service Connection>>'       # Reemplaza con el nombre de tu conexión de servicio
+    appType: functionAppLinux                            # O functionAppWindows según tu plan
+    appName: '<<Nombre-de-tu-function-app>>'             # Ej: prueba_andiad
+    package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
