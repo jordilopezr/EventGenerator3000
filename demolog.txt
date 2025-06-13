@@ -1,0 +1,64 @@
+2025-06-13T13:43:51.160 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=9abc0669-b07d-41de-805f-c595ea883401)
+2025-06-13T13:43:51.192 [Error] Executed 'Functions.demo' (Failed, Id=9abc0669-b07d-41de-805f-c595ea883401, Duration=38ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:01.322 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=61631a0d-55fd-4a35-a432-71c280c2f229)
+2025-06-13T13:44:01.325 [Error] Executed 'Functions.demo' (Failed, Id=61631a0d-55fd-4a35-a432-71c280c2f229, Duration=4ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:02.678 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b)
+2025-06-13T13:44:02.679 [Error] Executed 'Functions.demo' (Failed, Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b, Duration=1ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:04.103 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=c7cf1773-254d-40d3-8ede-e2855bb559d1)
+2025-06-13T13:44:04.105 [Error] Executed 'Functions.demo' (Failed, Id=c7cf1773-254d-40d3-8ede-e2855bb559d1, Duration=2ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
