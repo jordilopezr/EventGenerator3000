@@ -1,7 +1,7 @@
 import os
 import random
 import logging
-import datetime  # ...added missing import...
+import datetime
 import azure.functions as func
 import requests
 import json
@@ -74,10 +74,9 @@ def generate_otel_metric(event_type: str):
 
 def generate_sdk_trace():
     """Genera una traza de ejemplo usando el OneAgent SDK."""
-    tracer: CustomTracer = oneagent.sdk.create_custom_tracer('MyCustomTracer')
+    tracer = oneagent.sdk.create_custom_tracer('MyCustomTracer')
     with tracer.trace_custom_service_method('my_custom_service_method'):
         logging.info("Generando traza con OneAgent SDK...")
-        # Aquí iría el código del "servicio" que quieres trazar
         oneagent.sdk.add_custom_request_attribute('service.type', 'EventGeneratorSDK')
     logging.info("Traza de OneAgent SDK finalizada.")
 
