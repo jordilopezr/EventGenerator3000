@@ -1,7 +1,7 @@
-2025-06-13T13:02:09  Welcome, you are now connected to log-streaming service.
+2025-06-13T13:26:45  Welcome, you are now connected to log-streaming service.
 Starting Log Tail -n 10 of existing logs ----
 /home/LogFiles/__lastCheckTime.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/__lastCheckTime.txt)
-06/13/2025 13:01:40
+06/13/2025 13:02:50
 /home/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-2e64b803-b927-49b2-a2a8-cb8e9a068c3c.txt)
 2025-06-12T15:32:29  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,7, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/030aa43167ab-640cdb63-df06-4ff7-a954-8acecb296f5b.txt)
@@ -56,6 +56,8 @@ Starting Log Tail -n 10 of existing logs ----
 2025-06-10T19:03:30    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/5b7adbf5eba5-e4486d3b-1c93-4b3a-b106-35a18fe439de.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5b7adbf5eba5-e4486d3b-1c93-4b3a-b106-35a18fe439de.txt)
 2025-06-10T18:08:47  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,14, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/5f4a63e4ac61-c857ea82-d3d7-40b0-a12f-adea0eb43b32.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5f4a63e4ac61-c857ea82-d3d7-40b0-a12f-adea0eb43b32.txt)
+2025-06-13T13:26:45  Startup Request, url: /api/logstream, method: GET, type: request, pid: 768,1,5, ScmType: VSTSRM
 /home/LogFiles/kudu/trace/5fe727124d61-efe862ac-6fd4-40b1-b736-b188b641e1cf.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5fe727124d61-efe862ac-6fd4-40b1-b736-b188b641e1cf.txt)
 2025-06-12T21:57:19    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/5fe727124d61-fa916de0-b22f-43df-9906-e40d35e49fac.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/5fe727124d61-fa916de0-b22f-43df-9906-e40d35e49fac.txt)
@@ -134,6 +136,8 @@ Starting Log Tail -n 10 of existing logs ----
 2025-06-13T11:29:19    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/ed2012c75067-cfb02a99-2baa-485d-abee-c6fe44d11867.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ed2012c75067-cfb02a99-2baa-485d-abee-c6fe44d11867.txt)
 2025-06-13T11:29:00  Startup Request, url: /api/settings, method: GET, type: request, pid: 768,1,47, ScmType: VSTSRM
+/home/LogFiles/kudu/trace/ed2012c75067-f5f3620f-dc47-4837-b577-424d59bf3bea.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/ed2012c75067-f5f3620f-dc47-4837-b577-424d59bf3bea.txt)
+2025-06-13T13:24:14    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-ba623327-38d8-45e4-80ae-d247f46079df.txt)
 2025-06-10T16:24:55    Outgoing response, type: response, statusCode: 404, statusText: NotFound
 /home/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/kudu/trace/f2d6b7ca2e5d-d1e0e018-bcdb-4bb4-a1e5-7b2bad978a1a.txt)
@@ -277,131 +281,81 @@ python3.10-appservice-stage5
 2025-06-12T22:22:36.860146344Z Now listening on: http://[::]:8081
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_default_docker.log)
-2025-06-13T13:01:58.959182877Z Updating certificates in /etc/ssl/certs...
-2025-06-13T13:02:01.496212093Z 1 added, 0 removed; done.
-2025-06-13T13:02:01.497070377Z Running hooks in /etc/ca-certificates/update.d...
-2025-06-13T13:02:01.499657849Z done.
-2025-06-13T13:02:01.675641064Z Starting OpenBSD Secure Shell server: sshd.
-2025-06-13T13:02:04.009080665Z Hosting environment: Production
-2025-06-13T13:02:04.009106986Z Content root path: /azure-functions-host
-2025-06-13T13:02:04.009111624Z Now listening on: http://[::]:80
-2025-06-13T13:02:04.009114420Z Application started. Press Ctrl+C to shut down.
+2025-06-13T13:24:12.547779516Z Updating certificates in /etc/ssl/certs...
+2025-06-13T13:24:15.147875193Z 1 added, 0 removed; done.
+2025-06-13T13:24:15.148895120Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T13:24:15.151588679Z done.
+2025-06-13T13:24:15.283733158Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T13:24:17.181924253Z Hosting environment: Production
+2025-06-13T13:24:17.181954927Z Content root path: /azure-functions-host
+2025-06-13T13:24:17.184058230Z Now listening on: http://[::]:80
+2025-06-13T13:24:17.184077339Z Application started. Press Ctrl+C to shut down.
 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_docker.log)
-2025-06-13T13:01:59.483Z INFO  - Pull Image successful, Time taken: 0 Seconds
-2025-06-13T13:01:59.530Z INFO  - Starting container for site
-2025-06-13T13:01:59.531Z INFO  - docker run -d --expose=8181 --name chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=chli2zb1afaccoeclcrit001 -e WEBSITE_AUTH_ENABLED=False -e PORT=8181 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.5:80 /Host.UseFileLogging=true
-python3.10-appservice-stage5 
-2025-06-13T13:02:00.321Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f_msiProxy for site chli2zb1afaccoeclcrit001
-2025-06-13T13:02:00.332Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T13:02:00.333Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f for site chli2zb1afaccoeclcrit001
-2025-06-13T13:02:04.521Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T13:02:04.522Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware for site chli2zb1afaccoeclcrit001
-2025-06-13T13:02:04.703Z INFO  - Container chli2zb1afaccoeclcrit001_1_90ba4d9f_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:24:18.186Z INFO  - Container chli2zb1afaccoeclcrit001_2_09f516a5 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:24:18.187Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_2_09f516a5_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T13:24:18.349Z INFO  - Container chli2zb1afaccoeclcrit001_2_09f516a5_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:26:23.969Z INFO  - Pulling image: mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:26:24.404Z INFO  - stage5 Pulling from appsvc/msitokenservice
+2025-06-13T13:26:24.413Z INFO  -  Digest: sha256:15c4360552ca5d886db18e4eaa6a95993305c67dae381aa8505592cd7c45bd46
+2025-06-13T13:26:24.414Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:26:24.447Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T13:26:24.474Z INFO  - Starting container for site
+2025-06-13T13:26:24.475Z INFO  - docker run -d --expose=8081 --name chli2zb1afaccoeclcrit001_4_d31fec55_msiProxy -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITE_AUTH_ENABLED=False -e PORT=8081 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/msitokenservice:stage5 
 /home/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_easyauth_docker.log)
-2025-06-13T11:29:18.585764060Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
-
-2025-06-13T12:44:35.819472831Z Updated CA certificates
-2025-06-13T12:44:36.235991143Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
-2025-06-13T12:44:36.236022874Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
-
-2025-06-13T13:02:02.526289363Z Updated CA certificates
-2025-06-13T13:02:02.938432692Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
 2025-06-13T13:02:02.938465326Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
-/home/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log)
-2025-06-13T12:44:31.602376011Z Hosting environment: Production
-2025-06-13T12:44:31.602408257Z Content root path: /app
-2025-06-13T12:44:31.602413482Z Now listening on: http://[::]:8081
+2025-06-13T13:02:58.448341639Z Updated CA certificates
+2025-06-13T13:02:58.875276675Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T13:02:58.875307697Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
 
-2025-06-13T13:01:42.650207271Z Updated CA certificates
-2025-06-13T13:01:43.262016201Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
-2025-06-13T13:01:44.065423333Z Hosting environment: Production
-2025-06-13T13:01:44.065460020Z Content root path: /app
-2025-06-13T13:01:44.066062055Z Now listening on: http://[::]:8081
+2025-06-13T13:24:15.725276352Z Updated CA certificates
+2025-06-13T13:24:16.166351158Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T13:24:16.166393909Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+/home/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/2025_06_13_al0sdlwk00001B_msi_docker.log)
+2025-06-13T13:02:53.934224696Z Hosting environment: Production
+2025-06-13T13:02:53.934258064Z Content root path: /app
+2025-06-13T13:02:53.934264161Z Now listening on: http://[::]:8081
+
+2025-06-13T13:24:09.712612027Z Updated CA certificates
+2025-06-13T13:24:10.365510075Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T13:24:11.189241444Z Hosting environment: Production
+2025-06-13T13:24:11.189275540Z Content root path: /app
+2025-06-13T13:24:11.189281463Z Now listening on: http://[::]:8081
 
 /home/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Host/2025-06-10T16-15-22Z-46ace6e5d7.log)
-  "state": "Running",
   "version": "4.1039.500.0",
   "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
   "platformVersion": "103.0.7.377",
   "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
   "computerName": "al0sdlwk00001B",
-  "processUptime": 3122,
+  "processUptime": 62175,
   "functionAppContentEditingState": "Unknown"
 }
-2025-06-13T13:02:08.306 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
+2025-06-13T13:25:22.411 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=a2957b64-c8c1-45a6-9601-e8b4132e703b)
+2025-06-13T13:25:22.457 [Information] Executed 'Functions.holamundo' (Succeeded, Id=a2957b64-c8c1-45a6-9601-e8b4132e703b, Duration=49ms)
 /home/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log  (https://chli2zb1afaccoeclcrit001.scm.csbsanh.cl.corp/api/vfs/LogFiles/Application/Functions/Function/holamundo/2025-06-13T03-04-11Z-46ace6e5d7.log)
 2025-06-13T03:04:11.028 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28)
 2025-06-13T03:04:11.077 [Information] Executed 'Functions.holamundo' (Succeeded, Id=8e3cb4b1-9021-4a67-91a1-a22edc0e0c28, Duration=52ms)
+2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
+2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
+2025-06-13T13:25:22.411 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=a2957b64-c8c1-45a6-9601-e8b4132e703b)
+2025-06-13T13:25:22.457 [Information] Executed 'Functions.holamundo' (Succeeded, Id=a2957b64-c8c1-45a6-9601-e8b4132e703b, Duration=49ms)
 Ending Log Tail of existing logs ---
 Starting Live Log Stream ---
-2025-06-13T13:02:11.815 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 10135,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:02:11.853 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 10173,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:02:12.664 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 10984,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:02:14.702 [Information] Worker process started and initialized.
-2025-06-13T13:02:14.853 [Information] Traceback (most recent call last):
-2025-06-13T13:02:14.853 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:02:14.853 [Information] return func(*args, **kwargs)
-2025-06-13T13:02:14.853 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:02:14.853 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:02:14.853 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:02:14.854 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:02:14.854 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:02:14.854 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:02:14.854 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:02:14.855 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:02:51.130Z INFO  - Pulling image: mcr.microsoft.com/appsvc/msitokenservice:stage5
-2025-06-13T13:02:51.509Z INFO  - stage5 Pulling from appsvc/msitokenservice
-2025-06-13T13:02:51.520Z INFO  -  Digest: sha256:15c4360552ca5d886db18e4eaa6a95993305c67dae381aa8505592cd7c45bd46
-2025-06-13T13:02:51.522Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/msitokenservice:stage5
-2025-06-13T13:02:51.533Z INFO  - Pull Image successful, Time taken: 0 Seconds
-2025-06-13T13:02:51.558Z INFO  - Starting container for site
-2025-06-13T13:02:51.559Z INFO  - docker run -d --expose=8081 --name chli2zb1afaccoeclcrit001_1_29b69493_msiProxy -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITE_AUTH_ENABLED=False -e PORT=8081 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/msitokenservice:stage5 
-6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.5:80 /Host.UseFileLogging=true
-python3.10-appservice-stage5 
-����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������2025-06-13T13:02:59.958Z INFO  - Container chli2zb1afaccoeclcrit001_1_29b69493 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T13:02:59.960Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_1_29b69493_middleware for site chli2zb1afaccoeclcrit001
-2025-06-13T13:02:58.749 [Warning] The Dashboard setting is no longer supported. See https://aka.ms/functions-dashboard for details.
-2025-06-13T13:02:58.773 [Information] Initializing Warmup Extension.
-2025-06-13T13:02:58.828 [Information] Initializing Host. OperationId: '7e855b87-02ac-445b-94a9-6f0468cf3064'.
-2025-06-13T13:02:58.831 [Information] Host initialization: ConsecutiveErrors=0, StartupCount=1, OperationId=7e855b87-02ac-445b-94a9-6f0468cf3064
-2025-06-13T13:02:58.876 [Information] ApplicationInsightsLoggerOptions
+2025-06-13T13:26:23.969Z INFO  - Pulling image: mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:26:24.404Z INFO  - stage5 Pulling from appsvc/msitokenservice
+2025-06-13T13:26:24.413Z INFO  -  Digest: sha256:15c4360552ca5d886db18e4eaa6a95993305c67dae381aa8505592cd7c45bd46
+2025-06-13T13:26:24.414Z INFO  -  Status: Image is up to date for mcr.microsoft.com/appsvc/msitokenservice:stage5
+2025-06-13T13:26:24.447Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2025-06-13T13:26:24.474Z INFO  - Starting container for site
+2025-06-13T13:26:24.475Z INFO  - docker run -d --expose=8081 --name chli2zb1afaccoeclcrit001_4_d31fec55_msiProxy -e WEBSITE_CORS_ALLOWED_ORIGINS=https://www.contoso.com,http://www.example.com -e WEBSITE_CORS_SUPPORT_CREDENTIALS=True -e WEBSITE_AUTH_ENABLED=False -e PORT=8081 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=chli2zb1afaccoeclcrit001.chli2zb1aseglobalplat002.appserviceenvironment.net -e WEBSITE_INSTANCE_ID=46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/msitokenservice:stage5 
+2025-06-13T13:26:58.335 [Warning] The Dashboard setting is no longer supported. See https://aka.ms/functions-dashboard for details.
+2025-06-13T13:26:58.360 [Information] Initializing Warmup Extension.
+2025-06-13T13:26:58.408 [Information] Initializing Host. OperationId: 'cb19e019-ec89-4288-a49b-67f6b3bf03d1'.
+2025-06-13T13:26:58.412 [Information] Host initialization: ConsecutiveErrors=0, StartupCount=1, OperationId=cb19e019-ec89-4288-a49b-67f6b3bf03d1
+2025-06-13T13:26:58.457 [Information] ApplicationInsightsLoggerOptions
 {
   "SamplingSettings": {
     "EvaluationInterval": "00:00:15",
@@ -435,7 +389,7 @@ python3.10-appservice-stage5
   "EnableAdaptiveSamplingDelay": true,
   "AdaptiveSamplingInitializationDelay": "00:00:15"
 }
-2025-06-13T13:02:58.877 [Information] LoggerFilterOptions
+2025-06-13T13:26:58.457 [Information] LoggerFilterOptions
 {
   "MinLevel": "None",
   "Rules": [
@@ -489,7 +443,7 @@ python3.10-appservice-stage5
     }
   ]
 }
-2025-06-13T13:02:58.877 [Information] LoggerFilterOptions
+2025-06-13T13:26:58.457 [Information] LoggerFilterOptions
 {
   "MinLevel": "None",
   "Rules": [
@@ -543,20 +497,20 @@ python3.10-appservice-stage5
     }
   ]
 }
-2025-06-13T13:02:58.877 [Information] FunctionResultAggregatorOptions
+2025-06-13T13:26:58.457 [Information] FunctionResultAggregatorOptions
 {
   "BatchSize": 1000,
   "FlushTimeout": "00:00:30",
   "IsEnabled": true
 }
-2025-06-13T13:02:58.877 [Information] ConcurrencyOptions
+2025-06-13T13:26:58.457 [Information] ConcurrencyOptions
 {
   "DynamicConcurrencyEnabled": false,
   "MaximumFunctionConcurrency": 500,
   "CPUThreshold": 0.8,
   "SnapshotPersistenceEnabled": true
 }
-2025-06-13T13:02:58.877 [Information] SingletonOptions
+2025-06-13T13:26:58.457 [Information] SingletonOptions
 {
   "LockPeriod": "00:00:15",
   "ListenerLockPeriod": "00:01:00",
@@ -564,7 +518,7 @@ python3.10-appservice-stage5
   "LockAcquisitionPollingInterval": "00:00:05",
   "ListenerLockRecoveryPollingInterval": "00:01:00"
 }
-2025-06-13T13:02:58.877 [Information] ScaleOptions
+2025-06-13T13:26:58.457 [Information] ScaleOptions
 {
   "ScaleMetricsMaxAge": "00:02:00",
   "ScaleMetricsSampleInterval": "00:00:10",
@@ -572,77 +526,20 @@ python3.10-appservice-stage5
   "IsTargetScalingEnabled": true,
   "IsRuntimeScalingEnabled": false
 }
-2025-06-13T13:02:58.878 [Information] Starting JobHost
-2025-06-13T13:02:58.878 [Information] Starting Host (HostId=chli2zb1afaccoeclcrit001, InstanceId=6a46a298-8594-4312-bc48-2c9317e87155, Version=4.1039.500.0, ProcessId=976, AppDomainId=1, InDebugMode=True, InDiagnosticMode=False, FunctionsExtensionVersion=~4)
-2025-06-13T13:02:58.886 [Information] Loading functions metadata
-2025-06-13T13:02:59.695 [Information] Reading functions metadata (Custom)
-2025-06-13T13:02:59.698 [Information] 0 functions found (Custom)
-2025-06-13T13:02:59.701 [Information] 2 functions loaded
-2025-06-13T13:02:59.717 [Information] Generating 2 job function(s)
-2025-06-13T13:02:59.742 [Information] Found the following functions:
-Host.Functions.demo3
+2025-06-13T13:26:58.458 [Information] Starting JobHost
+2025-06-13T13:26:58.458 [Information] Starting Host (HostId=chli2zb1afaccoeclcrit001, InstanceId=6c252047-c5b2-40c3-a035-e039bfb37c00, Version=4.1039.500.0, ProcessId=976, AppDomainId=1, InDebugMode=True, InDiagnosticMode=False, FunctionsExtensionVersion=~4)
+2025-06-13T13:26:58.465 [Information] Loading functions metadata
+2025-06-13T13:26:59.308 [Information] Reading functions metadata (Custom)
+2025-06-13T13:26:59.312 [Information] 0 functions found (Custom)
+2025-06-13T13:26:59.315 [Information] 2 functions loaded
+2025-06-13T13:26:59.329 [Information] Generating 2 job function(s)
+2025-06-13T13:26:59.401 [Information] Found the following functions:
+Host.Functions.demo
 Host.Functions.holamundo
-2025-06-13T13:02:59.747 [Information] HttpOptions
-{
-  "DynamicThrottlesEnabled": false,
-  "EnableChunkedRequestBinding": false,
-  "MaxConcurrentRequests": -1,
-  "MaxOutstandingRequests": -1,
-  "RoutePrefix": "api"
-}
-2025-06-13T13:02:59.749 [Information] Initializing function HTTP routes
-Mapped function route 'api/demo3' [get,post] to 'demo3'
+2025-06-13T13:26:59.407 [Information] Initializing function HTTP routes
+Mapped function route 'api/demo' [get,post] to 'demo'
 Mapped function route 'api/holamundo' [get,post] to 'holamundo'
-2025-06-13T13:02:59.751 [Information] Host initialized (870ms)
-2025-06-13T13:02:59.759 [Information] Host started (880ms)
-2025-06-13T13:02:59.759 [Information] Job host started
-2025-06-13T13:03:00.112 [Information] Traceback (most recent call last):
-2025-06-13T13:03:00.112 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:03:00.112 [Information] return func(*args, **kwargs)
-2025-06-13T13:03:00.112 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:03:00.112 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:03:00.112 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:03:00.112 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:03:00.112 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:03:00.113 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:03:00.113 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:03:00.113 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:03:00.113 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:03:00.232 [Information] Worker process started and initialized.
-2025-06-13T13:03:00.373 [Information] Traceback (most recent call last):
-2025-06-13T13:03:00.373 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:03:00.373 [Information] return func(*args, **kwargs)
-2025-06-13T13:03:00.373 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:03:00.373 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:03:00.373 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:03:00.373 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:03:00.373 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:03:00.373 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:03:00.373 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:03:00.373 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:03:04.122 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
-2025-06-13T13:03:07.367Z INFO  - Container chli2zb1afaccoeclcrit001_1_29b69493_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
-2025-06-13T13:03:07.471 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 9550,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:03:07.493 [Information] HttpOptions
+2025-06-13T13:26:59.411 [Information] HttpOptions
 {
   "DynamicThrottlesEnabled": false,
   "EnableChunkedRequestBinding": false,
@@ -650,14 +547,155 @@ Mapped function route 'api/holamundo' [get,post] to 'holamundo'
   "MaxOutstandingRequests": -1,
   "RoutePrefix": "api"
 }
-2025-06-13T13:03:07.494 [Information] ConcurrencyOptions
+2025-06-13T13:26:59.413 [Information] Host initialized (948ms)
+2025-06-13T13:26:59.421 [Information] Host started (962ms)
+2025-06-13T13:26:59.421 [Information] Job host started
+2025-06-13T13:26:59.733 [Information] Traceback (most recent call last):
+2025-06-13T13:26:59.734 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:26:59.734 [Information] return func(*args, **kwargs)
+2025-06-13T13:26:59.734 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:26:59.734 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:26:59.734 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:26:59.734 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:26:59.734 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:26:59.734 [Information] File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+2025-06-13T13:26:59.734 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:26:59.734 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:26:59.847 [Information] Worker process started and initialized.
+2025-06-13T13:26:59.994 [Information] Traceback (most recent call last):
+2025-06-13T13:26:59.994 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:26:59.994 [Information] return func(*args, **kwargs)
+2025-06-13T13:26:59.994 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:26:59.994 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:26:59.994 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:26:59.994 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:26:59.994 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:26:59.994 [Information] File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+2025-06-13T13:26:59.994 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:26:59.994 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:27:03.706 [Information] Host lock lease acquired by instance ID '46ace6e5d763c1481b0c87c48e806101'.
+6 -e HTTP_LOGGING_ENABLED=1 mcr.microsoft.com/appsvc/middleware:stage5 /Host.ListenUrl=http://0.0.0.0:8181 /Host.DestinationHostUrl=http://169.254.129.3:80 /Host.UseFileLogging=true
+python3.10-appservice-stage5 
+2025-06-13T13:26:56.454Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_4_d31fec55_msiProxy for site chli2zb1afaccoeclcrit001
+2025-06-13T13:26:56.460Z INFO  - Container chli2zb1afaccoeclcrit001_4_d31fec55_msiProxy for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:26:56.462Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_4_d31fec55 for site chli2zb1afaccoeclcrit001
+2025-06-13T13:26:59.656Z INFO  - Container chli2zb1afaccoeclcrit001_4_d31fec55 for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:26:59.657Z INFO  - Initiating warmup request to container chli2zb1afaccoeclcrit001_4_d31fec55_middleware for site chli2zb1afaccoeclcrit001
+2025-06-13T13:27:10.417 [Information] Worker process started and initialized.
+2025-06-13T13:27:10.635 [Information] Traceback (most recent call last):
+2025-06-13T13:27:10.636 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:27:10.636 [Information] return func(*args, **kwargs)
+2025-06-13T13:27:10.636 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:27:10.636 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:27:10.636 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:27:10.636 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:27:10.636 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:27:10.637 [Information] File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+2025-06-13T13:27:10.637 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:27:10.637 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:27:15.284Z INFO  - Container chli2zb1afaccoeclcrit001_4_d31fec55_middleware for site chli2zb1afaccoeclcrit001 initialized successfully and is ready to serve requests.
+2025-06-13T13:27:20.864 [Information] Worker process started and initialized.
+2025-06-13T13:27:21.042 [Information] Traceback (most recent call last):
+2025-06-13T13:27:21.042 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:27:21.042 [Information] return func(*args, **kwargs)
+2025-06-13T13:27:21.042 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:27:21.042 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:27:21.042 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:27:21.042 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:27:21.042 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:27:21.042 [Information] File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+2025-06-13T13:27:21.043 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:27:21.043 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:26:54.758149369Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-13T13:26:54.766637972Z CA certificates copied and updated successfully.
+2025-06-13T13:26:54.783256733Z Updating certificates in /etc/ssl/certs...
+2025-06-13T13:26:57.290818309Z 1 added, 0 removed; done.
+2025-06-13T13:26:57.290889084Z Running hooks in /etc/ca-certificates/update.d...
+2025-06-13T13:26:57.292491005Z done.
+2025-06-13T13:26:57.476678219Z Starting OpenBSD Secure Shell server: sshd.
+2025-06-13T13:26:59.440406877Z Hosting environment: Production
+2025-06-13T13:26:59.441170180Z Content root path: /azure-functions-host
+2025-06-13T13:26:59.441191078Z Now listening on: http://[::]:80
+2025-06-13T13:26:59.441429166Z Application started. Press Ctrl+C to shut down.
+
+2025-06-13T13:26:58.137834035Z Updated CA certificates
+2025-06-13T13:26:58.574306532Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+2025-06-13T13:26:58.574378129Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
+
+2025-06-13T13:26:25.225113159Z Updated CA certificates
+2025-06-13T13:26:25.809858186Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
+2025-06-13T13:26:26.625325469Z Hosting environment: Production
+2025-06-13T13:26:26.625400513Z Content root path: /app
+2025-06-13T13:26:26.625479908Z Now listening on: http://[::]:8081
+
+2025-06-13T13:27:29.462 [Information] HttpOptions
+{
+  "DynamicThrottlesEnabled": false,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": -1,
+  "MaxOutstandingRequests": -1,
+  "RoutePrefix": "api"
+}
+2025-06-13T13:27:29.465 [Information] ConcurrencyOptions
 {
   "DynamicConcurrencyEnabled": false,
   "MaximumFunctionConcurrency": 500,
   "CPUThreshold": 0.8,
   "SnapshotPersistenceEnabled": true
 }
-2025-06-13T13:03:09.232 [Information] Host Status: {
+2025-06-13T13:27:31.194 [Information] Worker process started and initialized.
+2025-06-13T13:27:31.348 [Information] Traceback (most recent call last):
+2025-06-13T13:27:31.348 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+2025-06-13T13:27:31.348 [Information] return func(*args, **kwargs)
+2025-06-13T13:27:31.348 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+2025-06-13T13:27:31.348 [Information] mod = importlib.import_module(fullmodname)
+2025-06-13T13:27:31.348 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+2025-06-13T13:27:31.348 [Information] return _bootstrap._gcd_import(name[level:], package, level)
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2025-06-13T13:27:31.348 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-06-13T13:27:31.348 [Information] File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+2025-06-13T13:27:31.349 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:27:31.349 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
+2025-06-13T13:28:45  No new trace in the past 1 min(s).
+2025-06-13T13:29:45  No new trace in the past 2 min(s).
+2025-06-13T13:30:45  No new trace in the past 3 min(s).
+2025-06-13T13:31:45  No new trace in the past 4 min(s).
+2025-06-13T13:32:45  No new trace in the past 5 min(s).
+2025-06-13T13:33:45  No new trace in the past 6 min(s).
+2025-06-13T13:34:45  No new trace in the past 7 min(s).
+2025-06-13T13:35:45  No new trace in the past 8 min(s).
+2025-06-13T13:36:45  No new trace in the past 9 min(s).
+2025-06-13T13:37:45  No new trace in the past 10 min(s).
+2025-06-13T13:38:45  No new trace in the past 11 min(s).
+2025-06-13T13:39:45  No new trace in the past 12 min(s).
+2025-06-13T13:40:45  No new trace in the past 13 min(s).
+2025-06-13T13:41:45  No new trace in the past 14 min(s).
+2025-06-13T13:42:45  No new trace in the past 15 min(s).
+2025-06-13T13:43:40.773 [Information] Host Status: {
   "id": "chli2zb1afaccoeclcrit001",
   "state": "Running",
   "version": "4.1039.500.0",
@@ -665,10 +703,10 @@ Mapped function route 'api/holamundo' [get,post] to 'holamundo'
   "platformVersion": "103.0.7.377",
   "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
   "computerName": "al0sdlwk00001B",
-  "processUptime": 11317,
+  "processUptime": 1003305,
   "functionAppContentEditingState": "Unknown"
 }
-2025-06-13T13:03:09.236 [Information] Host Status: {
+2025-06-13T13:43:40.884 [Information] Host Status: {
   "id": "chli2zb1afaccoeclcrit001",
   "state": "Running",
   "version": "4.1039.500.0",
@@ -676,117 +714,134 @@ Mapped function route 'api/holamundo' [get,post] to 'holamundo'
   "platformVersion": "103.0.7.377",
   "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
   "computerName": "al0sdlwk00001B",
-  "processUptime": 11322,
+  "processUptime": 1003416,
   "functionAppContentEditingState": "Unknown"
 }
-2025-06-13T13:03:10.657 [Information] Worker process started and initialized.
-2025-06-13T13:02:55.120278403Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
-2025-06-13T13:02:55.133954678Z CA certificates copied and updated successfully.
-2025-06-13T13:02:55.142697228Z Updating certificates in /etc/ssl/certs...
-2025-06-13T13:02:57.813257660Z 1 added, 0 removed; done.
-2025-06-13T13:02:57.813846604Z Running hooks in /etc/ca-certificates/update.d...
-2025-06-13T13:02:57.816288135Z done.
-2025-06-13T13:02:57.924326828Z Starting OpenBSD Secure Shell server: sshd.
-2025-06-13T13:02:59.776457350Z Hosting environment: Production
-2025-06-13T13:02:59.776486198Z Content root path: /azure-functions-host
-2025-06-13T13:02:59.776491665Z Now listening on: http://[::]:80
-2025-06-13T13:02:59.776496392Z Application started. Press Ctrl+C to shut down.
-
-2025-06-13T13:02:58.448341639Z Updated CA certificates
-2025-06-13T13:02:58.875276675Z warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
-2025-06-13T13:02:58.875307697Z       Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:8181'.
-
-2025-06-13T13:02:52.507680115Z Updated CA certificates
-2025-06-13T13:02:53.112274579Z {"EventId":0,"LogLevel":"Information","Category":"Program","Message":"Entering app startup."}
-2025-06-13T13:02:53.934224696Z Hosting environment: Production
-2025-06-13T13:02:53.934258064Z Content root path: /app
-2025-06-13T13:02:53.934264161Z Now listening on: http://[::]:8081
-
-2025-06-13T13:03:10.881 [Information] Traceback (most recent call last):
-2025-06-13T13:03:10.882 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:03:10.882 [Information] return func(*args, **kwargs)
-2025-06-13T13:03:10.882 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:03:10.882 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:03:10.882 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:03:10.882 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:03:10.882 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:03:10.882 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:03:10.882 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:03:10.882 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:03:20.982 [Information] Worker process started and initialized.
-2025-06-13T13:03:21.130 [Information] Traceback (most recent call last):
-2025-06-13T13:03:21.130 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:03:21.130 [Information] return func(*args, **kwargs)
-2025-06-13T13:03:21.130 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:03:21.130 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:03:21.130 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:03:21.130 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:03:21.130 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:03:21.131 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:03:21.131 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:03:21.131 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:03:21.131 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:03:31.329 [Information] Worker process started and initialized.
-2025-06-13T13:03:31.481 [Information] Traceback (most recent call last):
-2025-06-13T13:03:31.481 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
-2025-06-13T13:03:31.481 [Information] return func(*args, **kwargs)
-2025-06-13T13:03:31.482 [Information] File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
-2025-06-13T13:03:31.482 [Information] mod = importlib.import_module(fullmodname)
-2025-06-13T13:03:31.482 [Information] File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
-2025-06-13T13:03:31.482 [Information] return _bootstrap._gcd_import(name[level:], package, level)
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-2025-06-13T13:03:31.482 [Information] File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-2025-06-13T13:03:31.482 [Information] File "/home/site/wwwroot/demo3/__init__.py", line 9, in <module>
-2025-06-13T13:03:31.482 [Information] from opentelemetry.exporter.dynatrace import DynatraceExporter
-2025-06-13T13:03:31.482 [Error] ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'
-2025-06-13T13:05:10  No new trace in the past 1 min(s).
-2025-06-13T13:05:32.542 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 154628,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:05:34.329 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 156415,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:05:34.440 [Information] Host Status: {
-  "id": "chli2zb1afaccoeclcrit001",
-  "state": "Running",
-  "version": "4.1039.500.0",
-  "versionDetails": "4.1039.500-dev.0.0+f3334c3a7115930a49ecd3b0bc00039bb92afcf1",
-  "platformVersion": "103.0.7.377",
-  "instanceId": "46ace6e5d763c1481b0c87c48e806101fcc2dceb236c6ff8060c1fe0c50914c6",
-  "computerName": "al0sdlwk00001B",
-  "processUptime": 156526,
-  "functionAppContentEditingState": "Unknown"
-}
-2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
-2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
-2025-06-13T13:05:40.838 [Information] Executing 'Functions.holamundo' (Reason='This function was programmatically called via the host APIs.', Id=3aa8a673-4b57-4c8a-b118-15fc971d149f)
-2025-06-13T13:05:40.883 [Information] Executed 'Functions.holamundo' (Succeeded, Id=3aa8a673-4b57-4c8a-b118-15fc971d149f, Duration=49ms)
+2025-06-13T13:43:51.160 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=9abc0669-b07d-41de-805f-c595ea883401)
+2025-06-13T13:43:51.192 [Error] Executed 'Functions.demo' (Failed, Id=9abc0669-b07d-41de-805f-c595ea883401, Duration=38ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:43:51.160 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=9abc0669-b07d-41de-805f-c595ea883401)
+2025-06-13T13:43:51.192 [Error] Executed 'Functions.demo' (Failed, Id=9abc0669-b07d-41de-805f-c595ea883401, Duration=38ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:01.322 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=61631a0d-55fd-4a35-a432-71c280c2f229)
+2025-06-13T13:44:01.325 [Error] Executed 'Functions.demo' (Failed, Id=61631a0d-55fd-4a35-a432-71c280c2f229, Duration=4ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:02.678 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b)
+2025-06-13T13:44:02.679 [Error] Executed 'Functions.demo' (Failed, Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b, Duration=1ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:01.322 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=61631a0d-55fd-4a35-a432-71c280c2f229)
+2025-06-13T13:44:01.325 [Error] Executed 'Functions.demo' (Failed, Id=61631a0d-55fd-4a35-a432-71c280c2f229, Duration=4ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:02.678 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b)
+2025-06-13T13:44:02.679 [Error] Executed 'Functions.demo' (Failed, Id=3d0ac72e-4c76-4d33-b299-b0cfa324724b, Duration=1ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:04.103 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=c7cf1773-254d-40d3-8ede-e2855bb559d1)
+2025-06-13T13:44:04.105 [Error] Executed 'Functions.demo' (Failed, Id=c7cf1773-254d-40d3-8ede-e2855bb559d1, Duration=2ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
+2025-06-13T13:44:04.103 [Information] Executing 'Functions.demo' (Reason='This function was programmatically called via the host APIs.', Id=c7cf1773-254d-40d3-8ede-e2855bb559d1)
+2025-06-13T13:44:04.105 [Error] Executed 'Functions.demo' (Failed, Id=c7cf1773-254d-40d3-8ede-e2855bb559d1, Duration=2ms)
+Result: Failure
+Exception: ModuleNotFoundError: No module named 'opentelemetry.exporter.dynatrace'. Cannot find module. Please check the requirements.txt file for the missing module. For more info, please refer the troubleshooting guide: https://aka.ms/functions-modulenotfound. Current sys.path: ['/home/site/wwwroot', '/home/site/wwwroot/.python_packages/lib/site-packages', '/azure-functions-host/workers/python/3.10/LINUX/X64', '/usr/local/lib/python310.zip', '/usr/local/lib/python3.10', '/usr/local/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/site-packages']
+Stack:   File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/dispatcher.py", line 546, in _handle__function_load_request
+    func = loader.load_function(
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 49, in call
+    raise extend_exception_message(e, message)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/utils/wrappers.py", line 44, in call
+    return func(*args, **kwargs)
+  File "/azure-functions-host/workers/python/3.10/LINUX/X64/azure_functions_worker/loader.py", line 220, in load_function
+    mod = importlib.import_module(fullmodname)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/site/wwwroot/demo/__init__.py", line 11, in <module>
+    from opentelemetry.exporter.dynatrace import DynatraceExporter
